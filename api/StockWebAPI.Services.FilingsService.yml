@@ -1,0 +1,993 @@
+### YamlMime:ManagedReference
+items:
+- uid: StockWebAPI.Services.FilingsService
+  commentId: T:StockWebAPI.Services.FilingsService
+  id: FilingsService
+  parent: StockWebAPI.Services
+  children:
+  - StockWebAPI.Services.FilingsService.#ctor(StockDB.Repositories.IFilingRepository)
+  - StockWebAPI.Services.FilingsService.GetAllFilings
+  - StockWebAPI.Services.FilingsService.GetExcelFileDocument(System.String)
+  - StockWebAPI.Services.FilingsService.GetPdfDocument(System.String)
+  - StockWebAPI.Services.FilingsService.GetQuarterly
+  - StockWebAPI.Services.FilingsService.GetSectionSixteen
+  - StockWebAPI.Services.FilingsService.GetXbrlFileDocuments(System.String)
+  - StockWebAPI.Services.FilingsService.GetYearly
+  langs:
+  - csharp
+  - vb
+  name: FilingsService
+  nameWithType: FilingsService
+  fullName: StockWebAPI.Services.FilingsService
+  type: Class
+  source:
+    remote:
+      path: Services/FilingsService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: FilingsService
+    path: ../Services/FilingsService.cs
+    startLine: 5
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: 'public class FilingsService : IFilingsService'
+    content.vb: Public Class FilingsService Implements IFilingsService
+  inheritance:
+  - System.Object
+  implements:
+  - StockWebAPI.Services.IFilingsService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: StockWebAPI.Services.FilingsService.#ctor(StockDB.Repositories.IFilingRepository)
+  commentId: M:StockWebAPI.Services.FilingsService.#ctor(StockDB.Repositories.IFilingRepository)
+  id: '#ctor(StockDB.Repositories.IFilingRepository)'
+  parent: StockWebAPI.Services.FilingsService
+  langs:
+  - csharp
+  - vb
+  name: FilingsService(IFilingRepository)
+  nameWithType: FilingsService.FilingsService(IFilingRepository)
+  fullName: StockWebAPI.Services.FilingsService.FilingsService(StockDB.Repositories.IFilingRepository)
+  type: Constructor
+  source:
+    remote:
+      path: Services/FilingsService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: .ctor
+    path: ../Services/FilingsService.cs
+    startLine: 48
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: public FilingsService(IFilingRepository filingRepo)
+    parameters:
+    - id: filingRepo
+      type: StockDB.Repositories.IFilingRepository
+    content.vb: Public Sub New(filingRepo As IFilingRepository)
+  overload: StockWebAPI.Services.FilingsService.#ctor*
+  nameWithType.vb: FilingsService.New(IFilingRepository)
+  fullName.vb: StockWebAPI.Services.FilingsService.New(StockDB.Repositories.IFilingRepository)
+  name.vb: New(IFilingRepository)
+- uid: StockWebAPI.Services.FilingsService.GetAllFilings
+  commentId: M:StockWebAPI.Services.FilingsService.GetAllFilings
+  id: GetAllFilings
+  parent: StockWebAPI.Services.FilingsService
+  langs:
+  - csharp
+  - vb
+  name: GetAllFilings()
+  nameWithType: FilingsService.GetAllFilings()
+  fullName: StockWebAPI.Services.FilingsService.GetAllFilings()
+  type: Method
+  source:
+    remote:
+      path: Services/FilingsService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetAllFilings
+    path: ../Services/FilingsService.cs
+    startLine: 52
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  example: []
+  syntax:
+    content: public Task<List<FilingDTO>> GetAllFilings()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+    content.vb: Public Function GetAllFilings() As Task(Of List(Of FilingDTO))
+  overload: StockWebAPI.Services.FilingsService.GetAllFilings*
+  implements:
+  - StockWebAPI.Services.IFilingsService.GetAllFilings
+- uid: StockWebAPI.Services.FilingsService.GetYearly
+  commentId: M:StockWebAPI.Services.FilingsService.GetYearly
+  id: GetYearly
+  parent: StockWebAPI.Services.FilingsService
+  langs:
+  - csharp
+  - vb
+  name: GetYearly()
+  nameWithType: FilingsService.GetYearly()
+  fullName: StockWebAPI.Services.FilingsService.GetYearly()
+  type: Method
+  source:
+    remote:
+      path: Services/FilingsService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetYearly
+    path: ../Services/FilingsService.cs
+    startLine: 65
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  example: []
+  syntax:
+    content: public Task<List<FilingDTO>> GetYearly()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+    content.vb: Public Function GetYearly() As Task(Of List(Of FilingDTO))
+  overload: StockWebAPI.Services.FilingsService.GetYearly*
+  implements:
+  - StockWebAPI.Services.IFilingsService.GetYearly
+- uid: StockWebAPI.Services.FilingsService.GetQuarterly
+  commentId: M:StockWebAPI.Services.FilingsService.GetQuarterly
+  id: GetQuarterly
+  parent: StockWebAPI.Services.FilingsService
+  langs:
+  - csharp
+  - vb
+  name: GetQuarterly()
+  nameWithType: FilingsService.GetQuarterly()
+  fullName: StockWebAPI.Services.FilingsService.GetQuarterly()
+  type: Method
+  source:
+    remote:
+      path: Services/FilingsService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetQuarterly
+    path: ../Services/FilingsService.cs
+    startLine: 78
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  example: []
+  syntax:
+    content: public Task<List<FilingDTO>> GetQuarterly()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+    content.vb: Public Function GetQuarterly() As Task(Of List(Of FilingDTO))
+  overload: StockWebAPI.Services.FilingsService.GetQuarterly*
+  implements:
+  - StockWebAPI.Services.IFilingsService.GetQuarterly
+- uid: StockWebAPI.Services.FilingsService.GetSectionSixteen
+  commentId: M:StockWebAPI.Services.FilingsService.GetSectionSixteen
+  id: GetSectionSixteen
+  parent: StockWebAPI.Services.FilingsService
+  langs:
+  - csharp
+  - vb
+  name: GetSectionSixteen()
+  nameWithType: FilingsService.GetSectionSixteen()
+  fullName: StockWebAPI.Services.FilingsService.GetSectionSixteen()
+  type: Method
+  source:
+    remote:
+      path: Services/FilingsService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetSectionSixteen
+    path: ../Services/FilingsService.cs
+    startLine: 91
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  example: []
+  syntax:
+    content: public Task<List<FilingDTO>> GetSectionSixteen()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+    content.vb: Public Function GetSectionSixteen() As Task(Of List(Of FilingDTO))
+  overload: StockWebAPI.Services.FilingsService.GetSectionSixteen*
+  implements:
+  - StockWebAPI.Services.IFilingsService.GetSectionSixteen
+- uid: StockWebAPI.Services.FilingsService.GetPdfDocument(System.String)
+  commentId: M:StockWebAPI.Services.FilingsService.GetPdfDocument(System.String)
+  id: GetPdfDocument(System.String)
+  parent: StockWebAPI.Services.FilingsService
+  langs:
+  - csharp
+  - vb
+  name: GetPdfDocument(string)
+  nameWithType: FilingsService.GetPdfDocument(string)
+  fullName: StockWebAPI.Services.FilingsService.GetPdfDocument(string)
+  type: Method
+  source:
+    remote:
+      path: Services/FilingsService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetPdfDocument
+    path: ../Services/FilingsService.cs
+    startLine: 104
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  example: []
+  syntax:
+    content: public Task<byte[]> GetPdfDocument(string accessionNum)
+    parameters:
+    - id: accessionNum
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+    content.vb: Public Function GetPdfDocument(accessionNum As String) As Task(Of Byte())
+  overload: StockWebAPI.Services.FilingsService.GetPdfDocument*
+  implements:
+  - StockWebAPI.Services.IFilingsService.GetPdfDocument(System.String)
+  nameWithType.vb: FilingsService.GetPdfDocument(String)
+  fullName.vb: StockWebAPI.Services.FilingsService.GetPdfDocument(String)
+  name.vb: GetPdfDocument(String)
+- uid: StockWebAPI.Services.FilingsService.GetExcelFileDocument(System.String)
+  commentId: M:StockWebAPI.Services.FilingsService.GetExcelFileDocument(System.String)
+  id: GetExcelFileDocument(System.String)
+  parent: StockWebAPI.Services.FilingsService
+  langs:
+  - csharp
+  - vb
+  name: GetExcelFileDocument(string)
+  nameWithType: FilingsService.GetExcelFileDocument(string)
+  fullName: StockWebAPI.Services.FilingsService.GetExcelFileDocument(string)
+  type: Method
+  source:
+    remote:
+      path: Services/FilingsService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetExcelFileDocument
+    path: ../Services/FilingsService.cs
+    startLine: 123
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  example: []
+  syntax:
+    content: public Task<byte[]> GetExcelFileDocument(string accessionNum)
+    parameters:
+    - id: accessionNum
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+    content.vb: Public Function GetExcelFileDocument(accessionNum As String) As Task(Of Byte())
+  overload: StockWebAPI.Services.FilingsService.GetExcelFileDocument*
+  implements:
+  - StockWebAPI.Services.IFilingsService.GetExcelFileDocument(System.String)
+  nameWithType.vb: FilingsService.GetExcelFileDocument(String)
+  fullName.vb: StockWebAPI.Services.FilingsService.GetExcelFileDocument(String)
+  name.vb: GetExcelFileDocument(String)
+- uid: StockWebAPI.Services.FilingsService.GetXbrlFileDocuments(System.String)
+  commentId: M:StockWebAPI.Services.FilingsService.GetXbrlFileDocuments(System.String)
+  id: GetXbrlFileDocuments(System.String)
+  parent: StockWebAPI.Services.FilingsService
+  langs:
+  - csharp
+  - vb
+  name: GetXbrlFileDocuments(string)
+  nameWithType: FilingsService.GetXbrlFileDocuments(string)
+  fullName: StockWebAPI.Services.FilingsService.GetXbrlFileDocuments(string)
+  type: Method
+  source:
+    remote:
+      path: Services/FilingsService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetXbrlFileDocuments
+    path: ../Services/FilingsService.cs
+    startLine: 142
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  example: []
+  syntax:
+    content: public Task<byte[]> GetXbrlFileDocuments(string accessionNum)
+    parameters:
+    - id: accessionNum
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+    content.vb: Public Function GetXbrlFileDocuments(accessionNum As String) As Task(Of Byte())
+  overload: StockWebAPI.Services.FilingsService.GetXbrlFileDocuments*
+  implements:
+  - StockWebAPI.Services.IFilingsService.GetXbrlFileDocuments(System.String)
+  nameWithType.vb: FilingsService.GetXbrlFileDocuments(String)
+  fullName.vb: StockWebAPI.Services.FilingsService.GetXbrlFileDocuments(String)
+  name.vb: GetXbrlFileDocuments(String)
+references:
+- uid: StockWebAPI.Services
+  commentId: N:StockWebAPI.Services
+  href: StockWebAPI.html
+  name: StockWebAPI.Services
+  nameWithType: StockWebAPI.Services
+  fullName: StockWebAPI.Services
+  spec.csharp:
+  - uid: StockWebAPI
+    name: StockWebAPI
+    href: StockWebAPI.html
+  - name: .
+  - uid: StockWebAPI.Services
+    name: Services
+    href: StockWebAPI.Services.html
+  spec.vb:
+  - uid: StockWebAPI
+    name: StockWebAPI
+    href: StockWebAPI.html
+  - name: .
+  - uid: StockWebAPI.Services
+    name: Services
+    href: StockWebAPI.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: StockWebAPI.Services.IFilingsService
+  commentId: T:StockWebAPI.Services.IFilingsService
+  parent: StockWebAPI.Services
+  href: StockWebAPI.Services.IFilingsService.html
+  name: IFilingsService
+  nameWithType: IFilingsService
+  fullName: StockWebAPI.Services.IFilingsService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StockWebAPI.Services.FilingsService.#ctor*
+  commentId: Overload:StockWebAPI.Services.FilingsService.#ctor
+  href: StockWebAPI.Services.FilingsService.html#StockWebAPI_Services_FilingsService__ctor_StockDB_Repositories_IFilingRepository_
+  name: FilingsService
+  nameWithType: FilingsService.FilingsService
+  fullName: StockWebAPI.Services.FilingsService.FilingsService
+  nameWithType.vb: FilingsService.New
+  fullName.vb: StockWebAPI.Services.FilingsService.New
+  name.vb: New
+- uid: StockDB.Repositories.IFilingRepository
+  commentId: T:StockDB.Repositories.IFilingRepository
+  parent: StockDB.Repositories
+  href: StockDB.Repositories.IFilingRepository.html
+  name: IFilingRepository
+  nameWithType: IFilingRepository
+  fullName: StockDB.Repositories.IFilingRepository
+- uid: StockDB.Repositories
+  commentId: N:StockDB.Repositories
+  href: StockDB.html
+  name: StockDB.Repositories
+  nameWithType: StockDB.Repositories
+  fullName: StockDB.Repositories
+  spec.csharp:
+  - uid: StockDB
+    name: StockDB
+    href: StockDB.html
+  - name: .
+  - uid: StockDB.Repositories
+    name: Repositories
+    href: StockDB.Repositories.html
+  spec.vb:
+  - uid: StockDB
+    name: StockDB
+    href: StockDB.html
+  - name: .
+  - uid: StockDB.Repositories
+    name: Repositories
+    href: StockDB.Repositories.html
+- uid: StockWebAPI.Services.FilingsService.GetAllFilings*
+  commentId: Overload:StockWebAPI.Services.FilingsService.GetAllFilings
+  href: StockWebAPI.Services.FilingsService.html#StockWebAPI_Services_FilingsService_GetAllFilings
+  name: GetAllFilings
+  nameWithType: FilingsService.GetAllFilings
+  fullName: StockWebAPI.Services.FilingsService.GetAllFilings
+- uid: StockWebAPI.Services.IFilingsService.GetAllFilings
+  commentId: M:StockWebAPI.Services.IFilingsService.GetAllFilings
+  parent: StockWebAPI.Services.IFilingsService
+  href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetAllFilings
+  name: GetAllFilings()
+  nameWithType: IFilingsService.GetAllFilings()
+  fullName: StockWebAPI.Services.IFilingsService.GetAllFilings()
+  spec.csharp:
+  - uid: StockWebAPI.Services.IFilingsService.GetAllFilings
+    name: GetAllFilings
+    href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetAllFilings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: StockWebAPI.Services.IFilingsService.GetAllFilings
+    name: GetAllFilings
+    href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetAllFilings
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<FilingDTO>>
+  nameWithType: Task<List<FilingDTO>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<StockDB.Models.DTO.FilingDTO>>
+  nameWithType.vb: Task(Of List(Of FilingDTO))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of StockDB.Models.DTO.FilingDTO))
+  name.vb: Task(Of List(Of FilingDTO))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: StockDB.Models.DTO.FilingDTO
+    name: FilingDTO
+    href: StockDB.Models.DTO.FilingDTO.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: StockDB.Models.DTO.FilingDTO
+    name: FilingDTO
+    href: StockDB.Models.DTO.FilingDTO.html
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: StockWebAPI.Services.FilingsService.GetYearly*
+  commentId: Overload:StockWebAPI.Services.FilingsService.GetYearly
+  href: StockWebAPI.Services.FilingsService.html#StockWebAPI_Services_FilingsService_GetYearly
+  name: GetYearly
+  nameWithType: FilingsService.GetYearly
+  fullName: StockWebAPI.Services.FilingsService.GetYearly
+- uid: StockWebAPI.Services.IFilingsService.GetYearly
+  commentId: M:StockWebAPI.Services.IFilingsService.GetYearly
+  parent: StockWebAPI.Services.IFilingsService
+  href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetYearly
+  name: GetYearly()
+  nameWithType: IFilingsService.GetYearly()
+  fullName: StockWebAPI.Services.IFilingsService.GetYearly()
+  spec.csharp:
+  - uid: StockWebAPI.Services.IFilingsService.GetYearly
+    name: GetYearly
+    href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetYearly
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: StockWebAPI.Services.IFilingsService.GetYearly
+    name: GetYearly
+    href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetYearly
+  - name: (
+  - name: )
+- uid: StockWebAPI.Services.FilingsService.GetQuarterly*
+  commentId: Overload:StockWebAPI.Services.FilingsService.GetQuarterly
+  href: StockWebAPI.Services.FilingsService.html#StockWebAPI_Services_FilingsService_GetQuarterly
+  name: GetQuarterly
+  nameWithType: FilingsService.GetQuarterly
+  fullName: StockWebAPI.Services.FilingsService.GetQuarterly
+- uid: StockWebAPI.Services.IFilingsService.GetQuarterly
+  commentId: M:StockWebAPI.Services.IFilingsService.GetQuarterly
+  parent: StockWebAPI.Services.IFilingsService
+  href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetQuarterly
+  name: GetQuarterly()
+  nameWithType: IFilingsService.GetQuarterly()
+  fullName: StockWebAPI.Services.IFilingsService.GetQuarterly()
+  spec.csharp:
+  - uid: StockWebAPI.Services.IFilingsService.GetQuarterly
+    name: GetQuarterly
+    href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetQuarterly
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: StockWebAPI.Services.IFilingsService.GetQuarterly
+    name: GetQuarterly
+    href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetQuarterly
+  - name: (
+  - name: )
+- uid: StockWebAPI.Services.FilingsService.GetSectionSixteen*
+  commentId: Overload:StockWebAPI.Services.FilingsService.GetSectionSixteen
+  href: StockWebAPI.Services.FilingsService.html#StockWebAPI_Services_FilingsService_GetSectionSixteen
+  name: GetSectionSixteen
+  nameWithType: FilingsService.GetSectionSixteen
+  fullName: StockWebAPI.Services.FilingsService.GetSectionSixteen
+- uid: StockWebAPI.Services.IFilingsService.GetSectionSixteen
+  commentId: M:StockWebAPI.Services.IFilingsService.GetSectionSixteen
+  parent: StockWebAPI.Services.IFilingsService
+  href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetSectionSixteen
+  name: GetSectionSixteen()
+  nameWithType: IFilingsService.GetSectionSixteen()
+  fullName: StockWebAPI.Services.IFilingsService.GetSectionSixteen()
+  spec.csharp:
+  - uid: StockWebAPI.Services.IFilingsService.GetSectionSixteen
+    name: GetSectionSixteen
+    href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetSectionSixteen
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: StockWebAPI.Services.IFilingsService.GetSectionSixteen
+    name: GetSectionSixteen
+    href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetSectionSixteen
+  - name: (
+  - name: )
+- uid: StockWebAPI.Services.FilingsService.GetPdfDocument*
+  commentId: Overload:StockWebAPI.Services.FilingsService.GetPdfDocument
+  href: StockWebAPI.Services.FilingsService.html#StockWebAPI_Services_FilingsService_GetPdfDocument_System_String_
+  name: GetPdfDocument
+  nameWithType: FilingsService.GetPdfDocument
+  fullName: StockWebAPI.Services.FilingsService.GetPdfDocument
+- uid: StockWebAPI.Services.IFilingsService.GetPdfDocument(System.String)
+  commentId: M:StockWebAPI.Services.IFilingsService.GetPdfDocument(System.String)
+  parent: StockWebAPI.Services.IFilingsService
+  isExternal: true
+  href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetPdfDocument_System_String_
+  name: GetPdfDocument(string)
+  nameWithType: IFilingsService.GetPdfDocument(string)
+  fullName: StockWebAPI.Services.IFilingsService.GetPdfDocument(string)
+  nameWithType.vb: IFilingsService.GetPdfDocument(String)
+  fullName.vb: StockWebAPI.Services.IFilingsService.GetPdfDocument(String)
+  name.vb: GetPdfDocument(String)
+  spec.csharp:
+  - uid: StockWebAPI.Services.IFilingsService.GetPdfDocument(System.String)
+    name: GetPdfDocument
+    href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetPdfDocument_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: StockWebAPI.Services.IFilingsService.GetPdfDocument(System.String)
+    name: GetPdfDocument
+    href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetPdfDocument_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{System.Byte[]}
+  commentId: T:System.Threading.Tasks.Task{System.Byte[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<byte[]>
+  nameWithType: Task<byte[]>
+  fullName: System.Threading.Tasks.Task<byte[]>
+  nameWithType.vb: Task(Of Byte())
+  fullName.vb: System.Threading.Tasks.Task(Of Byte())
+  name.vb: Task(Of Byte())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )
+- uid: StockWebAPI.Services.FilingsService.GetExcelFileDocument*
+  commentId: Overload:StockWebAPI.Services.FilingsService.GetExcelFileDocument
+  href: StockWebAPI.Services.FilingsService.html#StockWebAPI_Services_FilingsService_GetExcelFileDocument_System_String_
+  name: GetExcelFileDocument
+  nameWithType: FilingsService.GetExcelFileDocument
+  fullName: StockWebAPI.Services.FilingsService.GetExcelFileDocument
+- uid: StockWebAPI.Services.IFilingsService.GetExcelFileDocument(System.String)
+  commentId: M:StockWebAPI.Services.IFilingsService.GetExcelFileDocument(System.String)
+  parent: StockWebAPI.Services.IFilingsService
+  isExternal: true
+  href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetExcelFileDocument_System_String_
+  name: GetExcelFileDocument(string)
+  nameWithType: IFilingsService.GetExcelFileDocument(string)
+  fullName: StockWebAPI.Services.IFilingsService.GetExcelFileDocument(string)
+  nameWithType.vb: IFilingsService.GetExcelFileDocument(String)
+  fullName.vb: StockWebAPI.Services.IFilingsService.GetExcelFileDocument(String)
+  name.vb: GetExcelFileDocument(String)
+  spec.csharp:
+  - uid: StockWebAPI.Services.IFilingsService.GetExcelFileDocument(System.String)
+    name: GetExcelFileDocument
+    href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetExcelFileDocument_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: StockWebAPI.Services.IFilingsService.GetExcelFileDocument(System.String)
+    name: GetExcelFileDocument
+    href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetExcelFileDocument_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: StockWebAPI.Services.FilingsService.GetXbrlFileDocuments*
+  commentId: Overload:StockWebAPI.Services.FilingsService.GetXbrlFileDocuments
+  href: StockWebAPI.Services.FilingsService.html#StockWebAPI_Services_FilingsService_GetXbrlFileDocuments_System_String_
+  name: GetXbrlFileDocuments
+  nameWithType: FilingsService.GetXbrlFileDocuments
+  fullName: StockWebAPI.Services.FilingsService.GetXbrlFileDocuments
+- uid: StockWebAPI.Services.IFilingsService.GetXbrlFileDocuments(System.String)
+  commentId: M:StockWebAPI.Services.IFilingsService.GetXbrlFileDocuments(System.String)
+  parent: StockWebAPI.Services.IFilingsService
+  isExternal: true
+  href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetXbrlFileDocuments_System_String_
+  name: GetXbrlFileDocuments(string)
+  nameWithType: IFilingsService.GetXbrlFileDocuments(string)
+  fullName: StockWebAPI.Services.IFilingsService.GetXbrlFileDocuments(string)
+  nameWithType.vb: IFilingsService.GetXbrlFileDocuments(String)
+  fullName.vb: StockWebAPI.Services.IFilingsService.GetXbrlFileDocuments(String)
+  name.vb: GetXbrlFileDocuments(String)
+  spec.csharp:
+  - uid: StockWebAPI.Services.IFilingsService.GetXbrlFileDocuments(System.String)
+    name: GetXbrlFileDocuments
+    href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetXbrlFileDocuments_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: StockWebAPI.Services.IFilingsService.GetXbrlFileDocuments(System.String)
+    name: GetXbrlFileDocuments
+    href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetXbrlFileDocuments_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )

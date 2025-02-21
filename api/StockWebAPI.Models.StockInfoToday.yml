@@ -1,0 +1,885 @@
+### YamlMime:ManagedReference
+items:
+- uid: StockWebAPI.Models.StockInfoToday
+  commentId: T:StockWebAPI.Models.StockInfoToday
+  id: StockInfoToday
+  parent: StockWebAPI.Models
+  children:
+  - StockWebAPI.Models.StockInfoToday.Ask
+  - StockWebAPI.Models.StockInfoToday.AskSize
+  - StockWebAPI.Models.StockInfoToday.Bid
+  - StockWebAPI.Models.StockInfoToday.BidSize
+  - StockWebAPI.Models.StockInfoToday.Change
+  - StockWebAPI.Models.StockInfoToday.High
+  - StockWebAPI.Models.StockInfoToday.Last
+  - StockWebAPI.Models.StockInfoToday.Low
+  - StockWebAPI.Models.StockInfoToday.Open
+  - StockWebAPI.Models.StockInfoToday.PercentChange
+  - StockWebAPI.Models.StockInfoToday.PrevDayClose
+  - StockWebAPI.Models.StockInfoToday.Volume
+  langs:
+  - csharp
+  - vb
+  name: StockInfoToday
+  nameWithType: StockInfoToday
+  fullName: StockWebAPI.Models.StockInfoToday
+  type: Class
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: StockInfoToday
+    path: ../Models/Stock.cs
+    startLine: 268
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: public class StockInfoToday
+    content.vb: Public Class StockInfoToday
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: StockWebAPI.Models.StockInfoToday.Last
+  commentId: P:StockWebAPI.Models.StockInfoToday.Last
+  id: Last
+  parent: StockWebAPI.Models.StockInfoToday
+  langs:
+  - csharp
+  - vb
+  name: Last
+  nameWithType: StockInfoToday.Last
+  fullName: StockWebAPI.Models.StockInfoToday.Last
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: Last
+    path: ../Models/Stock.cs
+    startLine: 270
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("last")]
+
+      public string? Last { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("last")>
+
+      Public Property Last As String
+  overload: StockWebAPI.Models.StockInfoToday.Last*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: last
+- uid: StockWebAPI.Models.StockInfoToday.PercentChange
+  commentId: P:StockWebAPI.Models.StockInfoToday.PercentChange
+  id: PercentChange
+  parent: StockWebAPI.Models.StockInfoToday
+  langs:
+  - csharp
+  - vb
+  name: PercentChange
+  nameWithType: StockInfoToday.PercentChange
+  fullName: StockWebAPI.Models.StockInfoToday.PercentChange
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: PercentChange
+    path: ../Models/Stock.cs
+    startLine: 273
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("percentChange")]
+
+      public string? PercentChange { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("percentChange")>
+
+      Public Property PercentChange As String
+  overload: StockWebAPI.Models.StockInfoToday.PercentChange*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: percentChange
+- uid: StockWebAPI.Models.StockInfoToday.High
+  commentId: P:StockWebAPI.Models.StockInfoToday.High
+  id: High
+  parent: StockWebAPI.Models.StockInfoToday
+  langs:
+  - csharp
+  - vb
+  name: High
+  nameWithType: StockInfoToday.High
+  fullName: StockWebAPI.Models.StockInfoToday.High
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: High
+    path: ../Models/Stock.cs
+    startLine: 276
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("high")]
+
+      public string? High { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("high")>
+
+      Public Property High As String
+  overload: StockWebAPI.Models.StockInfoToday.High*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: high
+- uid: StockWebAPI.Models.StockInfoToday.Low
+  commentId: P:StockWebAPI.Models.StockInfoToday.Low
+  id: Low
+  parent: StockWebAPI.Models.StockInfoToday
+  langs:
+  - csharp
+  - vb
+  name: Low
+  nameWithType: StockInfoToday.Low
+  fullName: StockWebAPI.Models.StockInfoToday.Low
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: Low
+    path: ../Models/Stock.cs
+    startLine: 279
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("low")]
+
+      public string? Low { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("low")>
+
+      Public Property Low As String
+  overload: StockWebAPI.Models.StockInfoToday.Low*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: low
+- uid: StockWebAPI.Models.StockInfoToday.Change
+  commentId: P:StockWebAPI.Models.StockInfoToday.Change
+  id: Change
+  parent: StockWebAPI.Models.StockInfoToday
+  langs:
+  - csharp
+  - vb
+  name: Change
+  nameWithType: StockInfoToday.Change
+  fullName: StockWebAPI.Models.StockInfoToday.Change
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: Change
+    path: ../Models/Stock.cs
+    startLine: 282
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("change")]
+
+      public string? Change { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("change")>
+
+      Public Property Change As String
+  overload: StockWebAPI.Models.StockInfoToday.Change*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: change
+- uid: StockWebAPI.Models.StockInfoToday.PrevDayClose
+  commentId: P:StockWebAPI.Models.StockInfoToday.PrevDayClose
+  id: PrevDayClose
+  parent: StockWebAPI.Models.StockInfoToday
+  langs:
+  - csharp
+  - vb
+  name: PrevDayClose
+  nameWithType: StockInfoToday.PrevDayClose
+  fullName: StockWebAPI.Models.StockInfoToday.PrevDayClose
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: PrevDayClose
+    path: ../Models/Stock.cs
+    startLine: 285
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("yesterdayClose")]
+
+      public string? PrevDayClose { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("yesterdayClose")>
+
+      Public Property PrevDayClose As String
+  overload: StockWebAPI.Models.StockInfoToday.PrevDayClose*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: yesterdayClose
+- uid: StockWebAPI.Models.StockInfoToday.Bid
+  commentId: P:StockWebAPI.Models.StockInfoToday.Bid
+  id: Bid
+  parent: StockWebAPI.Models.StockInfoToday
+  langs:
+  - csharp
+  - vb
+  name: Bid
+  nameWithType: StockInfoToday.Bid
+  fullName: StockWebAPI.Models.StockInfoToday.Bid
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: Bid
+    path: ../Models/Stock.cs
+    startLine: 288
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("bid")]
+
+      public string? Bid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("bid")>
+
+      Public Property Bid As String
+  overload: StockWebAPI.Models.StockInfoToday.Bid*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: bid
+- uid: StockWebAPI.Models.StockInfoToday.BidSize
+  commentId: P:StockWebAPI.Models.StockInfoToday.BidSize
+  id: BidSize
+  parent: StockWebAPI.Models.StockInfoToday
+  langs:
+  - csharp
+  - vb
+  name: BidSize
+  nameWithType: StockInfoToday.BidSize
+  fullName: StockWebAPI.Models.StockInfoToday.BidSize
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: BidSize
+    path: ../Models/Stock.cs
+    startLine: 291
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("bidSize")]
+
+      public string? BidSize { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("bidSize")>
+
+      Public Property BidSize As String
+  overload: StockWebAPI.Models.StockInfoToday.BidSize*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: bidSize
+- uid: StockWebAPI.Models.StockInfoToday.Ask
+  commentId: P:StockWebAPI.Models.StockInfoToday.Ask
+  id: Ask
+  parent: StockWebAPI.Models.StockInfoToday
+  langs:
+  - csharp
+  - vb
+  name: Ask
+  nameWithType: StockInfoToday.Ask
+  fullName: StockWebAPI.Models.StockInfoToday.Ask
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: Ask
+    path: ../Models/Stock.cs
+    startLine: 294
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("ask")]
+
+      public string? Ask { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("ask")>
+
+      Public Property Ask As String
+  overload: StockWebAPI.Models.StockInfoToday.Ask*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ask
+- uid: StockWebAPI.Models.StockInfoToday.AskSize
+  commentId: P:StockWebAPI.Models.StockInfoToday.AskSize
+  id: AskSize
+  parent: StockWebAPI.Models.StockInfoToday
+  langs:
+  - csharp
+  - vb
+  name: AskSize
+  nameWithType: StockInfoToday.AskSize
+  fullName: StockWebAPI.Models.StockInfoToday.AskSize
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: AskSize
+    path: ../Models/Stock.cs
+    startLine: 297
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("askSize")]
+
+      public string? AskSize { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("askSize")>
+
+      Public Property AskSize As String
+  overload: StockWebAPI.Models.StockInfoToday.AskSize*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: askSize
+- uid: StockWebAPI.Models.StockInfoToday.Volume
+  commentId: P:StockWebAPI.Models.StockInfoToday.Volume
+  id: Volume
+  parent: StockWebAPI.Models.StockInfoToday
+  langs:
+  - csharp
+  - vb
+  name: Volume
+  nameWithType: StockInfoToday.Volume
+  fullName: StockWebAPI.Models.StockInfoToday.Volume
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: Volume
+    path: ../Models/Stock.cs
+    startLine: 300
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("volume")]
+
+      public string? Volume { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("volume")>
+
+      Public Property Volume As String
+  overload: StockWebAPI.Models.StockInfoToday.Volume*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: volume
+- uid: StockWebAPI.Models.StockInfoToday.Open
+  commentId: P:StockWebAPI.Models.StockInfoToday.Open
+  id: Open
+  parent: StockWebAPI.Models.StockInfoToday
+  langs:
+  - csharp
+  - vb
+  name: Open
+  nameWithType: StockInfoToday.Open
+  fullName: StockWebAPI.Models.StockInfoToday.Open
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: Open
+    path: ../Models/Stock.cs
+    startLine: 303
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("open")]
+
+      public string? Open { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("open")>
+
+      Public Property Open As String
+  overload: StockWebAPI.Models.StockInfoToday.Open*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: open
+references:
+- uid: StockWebAPI.Models
+  commentId: N:StockWebAPI.Models
+  href: StockWebAPI.html
+  name: StockWebAPI.Models
+  nameWithType: StockWebAPI.Models
+  fullName: StockWebAPI.Models
+  spec.csharp:
+  - uid: StockWebAPI
+    name: StockWebAPI
+    href: StockWebAPI.html
+  - name: .
+  - uid: StockWebAPI.Models
+    name: Models
+    href: StockWebAPI.Models.html
+  spec.vb:
+  - uid: StockWebAPI
+    name: StockWebAPI
+    href: StockWebAPI.html
+  - name: .
+  - uid: StockWebAPI.Models
+    name: Models
+    href: StockWebAPI.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StockWebAPI.Models.StockInfoToday.Last*
+  commentId: Overload:StockWebAPI.Models.StockInfoToday.Last
+  href: StockWebAPI.Models.StockInfoToday.html#StockWebAPI_Models_StockInfoToday_Last
+  name: Last
+  nameWithType: StockInfoToday.Last
+  fullName: StockWebAPI.Models.StockInfoToday.Last
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: StockWebAPI.Models.StockInfoToday.PercentChange*
+  commentId: Overload:StockWebAPI.Models.StockInfoToday.PercentChange
+  href: StockWebAPI.Models.StockInfoToday.html#StockWebAPI_Models_StockInfoToday_PercentChange
+  name: PercentChange
+  nameWithType: StockInfoToday.PercentChange
+  fullName: StockWebAPI.Models.StockInfoToday.PercentChange
+- uid: StockWebAPI.Models.StockInfoToday.High*
+  commentId: Overload:StockWebAPI.Models.StockInfoToday.High
+  href: StockWebAPI.Models.StockInfoToday.html#StockWebAPI_Models_StockInfoToday_High
+  name: High
+  nameWithType: StockInfoToday.High
+  fullName: StockWebAPI.Models.StockInfoToday.High
+- uid: StockWebAPI.Models.StockInfoToday.Low*
+  commentId: Overload:StockWebAPI.Models.StockInfoToday.Low
+  href: StockWebAPI.Models.StockInfoToday.html#StockWebAPI_Models_StockInfoToday_Low
+  name: Low
+  nameWithType: StockInfoToday.Low
+  fullName: StockWebAPI.Models.StockInfoToday.Low
+- uid: StockWebAPI.Models.StockInfoToday.Change*
+  commentId: Overload:StockWebAPI.Models.StockInfoToday.Change
+  href: StockWebAPI.Models.StockInfoToday.html#StockWebAPI_Models_StockInfoToday_Change
+  name: Change
+  nameWithType: StockInfoToday.Change
+  fullName: StockWebAPI.Models.StockInfoToday.Change
+- uid: StockWebAPI.Models.StockInfoToday.PrevDayClose*
+  commentId: Overload:StockWebAPI.Models.StockInfoToday.PrevDayClose
+  href: StockWebAPI.Models.StockInfoToday.html#StockWebAPI_Models_StockInfoToday_PrevDayClose
+  name: PrevDayClose
+  nameWithType: StockInfoToday.PrevDayClose
+  fullName: StockWebAPI.Models.StockInfoToday.PrevDayClose
+- uid: StockWebAPI.Models.StockInfoToday.Bid*
+  commentId: Overload:StockWebAPI.Models.StockInfoToday.Bid
+  href: StockWebAPI.Models.StockInfoToday.html#StockWebAPI_Models_StockInfoToday_Bid
+  name: Bid
+  nameWithType: StockInfoToday.Bid
+  fullName: StockWebAPI.Models.StockInfoToday.Bid
+- uid: StockWebAPI.Models.StockInfoToday.BidSize*
+  commentId: Overload:StockWebAPI.Models.StockInfoToday.BidSize
+  href: StockWebAPI.Models.StockInfoToday.html#StockWebAPI_Models_StockInfoToday_BidSize
+  name: BidSize
+  nameWithType: StockInfoToday.BidSize
+  fullName: StockWebAPI.Models.StockInfoToday.BidSize
+- uid: StockWebAPI.Models.StockInfoToday.Ask*
+  commentId: Overload:StockWebAPI.Models.StockInfoToday.Ask
+  href: StockWebAPI.Models.StockInfoToday.html#StockWebAPI_Models_StockInfoToday_Ask
+  name: Ask
+  nameWithType: StockInfoToday.Ask
+  fullName: StockWebAPI.Models.StockInfoToday.Ask
+- uid: StockWebAPI.Models.StockInfoToday.AskSize*
+  commentId: Overload:StockWebAPI.Models.StockInfoToday.AskSize
+  href: StockWebAPI.Models.StockInfoToday.html#StockWebAPI_Models_StockInfoToday_AskSize
+  name: AskSize
+  nameWithType: StockInfoToday.AskSize
+  fullName: StockWebAPI.Models.StockInfoToday.AskSize
+- uid: StockWebAPI.Models.StockInfoToday.Volume*
+  commentId: Overload:StockWebAPI.Models.StockInfoToday.Volume
+  href: StockWebAPI.Models.StockInfoToday.html#StockWebAPI_Models_StockInfoToday_Volume
+  name: Volume
+  nameWithType: StockInfoToday.Volume
+  fullName: StockWebAPI.Models.StockInfoToday.Volume
+- uid: StockWebAPI.Models.StockInfoToday.Open*
+  commentId: Overload:StockWebAPI.Models.StockInfoToday.Open
+  href: StockWebAPI.Models.StockInfoToday.html#StockWebAPI_Models_StockInfoToday_Open
+  name: Open
+  nameWithType: StockInfoToday.Open
+  fullName: StockWebAPI.Models.StockInfoToday.Open

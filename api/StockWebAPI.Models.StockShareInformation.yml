@@ -1,0 +1,741 @@
+### YamlMime:ManagedReference
+items:
+- uid: StockWebAPI.Models.StockShareInformation
+  commentId: T:StockWebAPI.Models.StockShareInformation
+  id: StockShareInformation
+  parent: StockWebAPI.Models
+  children:
+  - StockWebAPI.Models.StockShareInformation.CompanyName
+  - StockWebAPI.Models.StockShareInformation.Exchange
+  - StockWebAPI.Models.StockShareInformation.MarketCap
+  - StockWebAPI.Models.StockShareInformation.PbRatio
+  - StockWebAPI.Models.StockShareInformation.SharesOutstanding
+  - StockWebAPI.Models.StockShareInformation.Symbol
+  - StockWebAPI.Models.StockShareInformation.VWAP
+  - StockWebAPI.Models.StockShareInformation.YearHigh
+  - StockWebAPI.Models.StockShareInformation.YearLow
+  langs:
+  - csharp
+  - vb
+  name: StockShareInformation
+  nameWithType: StockShareInformation
+  fullName: StockWebAPI.Models.StockShareInformation
+  type: Class
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: StockShareInformation
+    path: ../Models/Stock.cs
+    startLine: 307
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: public class StockShareInformation
+    content.vb: Public Class StockShareInformation
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: StockWebAPI.Models.StockShareInformation.CompanyName
+  commentId: P:StockWebAPI.Models.StockShareInformation.CompanyName
+  id: CompanyName
+  parent: StockWebAPI.Models.StockShareInformation
+  langs:
+  - csharp
+  - vb
+  name: CompanyName
+  nameWithType: StockShareInformation.CompanyName
+  fullName: StockWebAPI.Models.StockShareInformation.CompanyName
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: CompanyName
+    path: ../Models/Stock.cs
+    startLine: 309
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("companyName")]
+
+      public string? CompanyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("companyName")>
+
+      Public Property CompanyName As String
+  overload: StockWebAPI.Models.StockShareInformation.CompanyName*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: companyName
+- uid: StockWebAPI.Models.StockShareInformation.Exchange
+  commentId: P:StockWebAPI.Models.StockShareInformation.Exchange
+  id: Exchange
+  parent: StockWebAPI.Models.StockShareInformation
+  langs:
+  - csharp
+  - vb
+  name: Exchange
+  nameWithType: StockShareInformation.Exchange
+  fullName: StockWebAPI.Models.StockShareInformation.Exchange
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: Exchange
+    path: ../Models/Stock.cs
+    startLine: 312
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("exchange")]
+
+      public string? Exchange { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("exchange")>
+
+      Public Property Exchange As String
+  overload: StockWebAPI.Models.StockShareInformation.Exchange*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: exchange
+- uid: StockWebAPI.Models.StockShareInformation.Symbol
+  commentId: P:StockWebAPI.Models.StockShareInformation.Symbol
+  id: Symbol
+  parent: StockWebAPI.Models.StockShareInformation
+  langs:
+  - csharp
+  - vb
+  name: Symbol
+  nameWithType: StockShareInformation.Symbol
+  fullName: StockWebAPI.Models.StockShareInformation.Symbol
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: Symbol
+    path: ../Models/Stock.cs
+    startLine: 315
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("symbol")]
+
+      public string? Symbol { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("symbol")>
+
+      Public Property Symbol As String
+  overload: StockWebAPI.Models.StockShareInformation.Symbol*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: symbol
+- uid: StockWebAPI.Models.StockShareInformation.MarketCap
+  commentId: P:StockWebAPI.Models.StockShareInformation.MarketCap
+  id: MarketCap
+  parent: StockWebAPI.Models.StockShareInformation
+  langs:
+  - csharp
+  - vb
+  name: MarketCap
+  nameWithType: StockShareInformation.MarketCap
+  fullName: StockWebAPI.Models.StockShareInformation.MarketCap
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: MarketCap
+    path: ../Models/Stock.cs
+    startLine: 319
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("marketCap")]
+
+      public string? MarketCap { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("marketCap")>
+
+      Public Property MarketCap As String
+  overload: StockWebAPI.Models.StockShareInformation.MarketCap*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: marketCap
+- uid: StockWebAPI.Models.StockShareInformation.YearHigh
+  commentId: P:StockWebAPI.Models.StockShareInformation.YearHigh
+  id: YearHigh
+  parent: StockWebAPI.Models.StockShareInformation
+  langs:
+  - csharp
+  - vb
+  name: YearHigh
+  nameWithType: StockShareInformation.YearHigh
+  fullName: StockWebAPI.Models.StockShareInformation.YearHigh
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: YearHigh
+    path: ../Models/Stock.cs
+    startLine: 322
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("yearHigh")]
+
+      public string? YearHigh { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("yearHigh")>
+
+      Public Property YearHigh As String
+  overload: StockWebAPI.Models.StockShareInformation.YearHigh*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: yearHigh
+- uid: StockWebAPI.Models.StockShareInformation.YearLow
+  commentId: P:StockWebAPI.Models.StockShareInformation.YearLow
+  id: YearLow
+  parent: StockWebAPI.Models.StockShareInformation
+  langs:
+  - csharp
+  - vb
+  name: YearLow
+  nameWithType: StockShareInformation.YearLow
+  fullName: StockWebAPI.Models.StockShareInformation.YearLow
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: YearLow
+    path: ../Models/Stock.cs
+    startLine: 325
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("yearLow")]
+
+      public string? YearLow { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("yearLow")>
+
+      Public Property YearLow As String
+  overload: StockWebAPI.Models.StockShareInformation.YearLow*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: yearLow
+- uid: StockWebAPI.Models.StockShareInformation.SharesOutstanding
+  commentId: P:StockWebAPI.Models.StockShareInformation.SharesOutstanding
+  id: SharesOutstanding
+  parent: StockWebAPI.Models.StockShareInformation
+  langs:
+  - csharp
+  - vb
+  name: SharesOutstanding
+  nameWithType: StockShareInformation.SharesOutstanding
+  fullName: StockWebAPI.Models.StockShareInformation.SharesOutstanding
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: SharesOutstanding
+    path: ../Models/Stock.cs
+    startLine: 328
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("sharesOutstanding")]
+
+      public string? SharesOutstanding { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("sharesOutstanding")>
+
+      Public Property SharesOutstanding As String
+  overload: StockWebAPI.Models.StockShareInformation.SharesOutstanding*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: sharesOutstanding
+- uid: StockWebAPI.Models.StockShareInformation.PbRatio
+  commentId: P:StockWebAPI.Models.StockShareInformation.PbRatio
+  id: PbRatio
+  parent: StockWebAPI.Models.StockShareInformation
+  langs:
+  - csharp
+  - vb
+  name: PbRatio
+  nameWithType: StockShareInformation.PbRatio
+  fullName: StockWebAPI.Models.StockShareInformation.PbRatio
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: PbRatio
+    path: ../Models/Stock.cs
+    startLine: 331
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("PbRatio")]
+
+      public string? PbRatio { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("PbRatio")>
+
+      Public Property PbRatio As String
+  overload: StockWebAPI.Models.StockShareInformation.PbRatio*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PbRatio
+- uid: StockWebAPI.Models.StockShareInformation.VWAP
+  commentId: P:StockWebAPI.Models.StockShareInformation.VWAP
+  id: VWAP
+  parent: StockWebAPI.Models.StockShareInformation
+  langs:
+  - csharp
+  - vb
+  name: VWAP
+  nameWithType: StockShareInformation.VWAP
+  fullName: StockWebAPI.Models.StockShareInformation.VWAP
+  type: Property
+  source:
+    remote:
+      path: Models/Stock.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: VWAP
+    path: ../Models/Stock.cs
+    startLine: 334
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Models
+  syntax:
+    content: >-
+      [JsonPropertyName("vwap")]
+
+      public string? VWAP { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("vwap")>
+
+      Public Property VWAP As String
+  overload: StockWebAPI.Models.StockShareInformation.VWAP*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: vwap
+references:
+- uid: StockWebAPI.Models
+  commentId: N:StockWebAPI.Models
+  href: StockWebAPI.html
+  name: StockWebAPI.Models
+  nameWithType: StockWebAPI.Models
+  fullName: StockWebAPI.Models
+  spec.csharp:
+  - uid: StockWebAPI
+    name: StockWebAPI
+    href: StockWebAPI.html
+  - name: .
+  - uid: StockWebAPI.Models
+    name: Models
+    href: StockWebAPI.Models.html
+  spec.vb:
+  - uid: StockWebAPI
+    name: StockWebAPI
+    href: StockWebAPI.html
+  - name: .
+  - uid: StockWebAPI.Models
+    name: Models
+    href: StockWebAPI.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StockWebAPI.Models.StockShareInformation.CompanyName*
+  commentId: Overload:StockWebAPI.Models.StockShareInformation.CompanyName
+  href: StockWebAPI.Models.StockShareInformation.html#StockWebAPI_Models_StockShareInformation_CompanyName
+  name: CompanyName
+  nameWithType: StockShareInformation.CompanyName
+  fullName: StockWebAPI.Models.StockShareInformation.CompanyName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: StockWebAPI.Models.StockShareInformation.Exchange*
+  commentId: Overload:StockWebAPI.Models.StockShareInformation.Exchange
+  href: StockWebAPI.Models.StockShareInformation.html#StockWebAPI_Models_StockShareInformation_Exchange
+  name: Exchange
+  nameWithType: StockShareInformation.Exchange
+  fullName: StockWebAPI.Models.StockShareInformation.Exchange
+- uid: StockWebAPI.Models.StockShareInformation.Symbol*
+  commentId: Overload:StockWebAPI.Models.StockShareInformation.Symbol
+  href: StockWebAPI.Models.StockShareInformation.html#StockWebAPI_Models_StockShareInformation_Symbol
+  name: Symbol
+  nameWithType: StockShareInformation.Symbol
+  fullName: StockWebAPI.Models.StockShareInformation.Symbol
+- uid: StockWebAPI.Models.StockShareInformation.MarketCap*
+  commentId: Overload:StockWebAPI.Models.StockShareInformation.MarketCap
+  href: StockWebAPI.Models.StockShareInformation.html#StockWebAPI_Models_StockShareInformation_MarketCap
+  name: MarketCap
+  nameWithType: StockShareInformation.MarketCap
+  fullName: StockWebAPI.Models.StockShareInformation.MarketCap
+- uid: StockWebAPI.Models.StockShareInformation.YearHigh*
+  commentId: Overload:StockWebAPI.Models.StockShareInformation.YearHigh
+  href: StockWebAPI.Models.StockShareInformation.html#StockWebAPI_Models_StockShareInformation_YearHigh
+  name: YearHigh
+  nameWithType: StockShareInformation.YearHigh
+  fullName: StockWebAPI.Models.StockShareInformation.YearHigh
+- uid: StockWebAPI.Models.StockShareInformation.YearLow*
+  commentId: Overload:StockWebAPI.Models.StockShareInformation.YearLow
+  href: StockWebAPI.Models.StockShareInformation.html#StockWebAPI_Models_StockShareInformation_YearLow
+  name: YearLow
+  nameWithType: StockShareInformation.YearLow
+  fullName: StockWebAPI.Models.StockShareInformation.YearLow
+- uid: StockWebAPI.Models.StockShareInformation.SharesOutstanding*
+  commentId: Overload:StockWebAPI.Models.StockShareInformation.SharesOutstanding
+  href: StockWebAPI.Models.StockShareInformation.html#StockWebAPI_Models_StockShareInformation_SharesOutstanding
+  name: SharesOutstanding
+  nameWithType: StockShareInformation.SharesOutstanding
+  fullName: StockWebAPI.Models.StockShareInformation.SharesOutstanding
+- uid: StockWebAPI.Models.StockShareInformation.PbRatio*
+  commentId: Overload:StockWebAPI.Models.StockShareInformation.PbRatio
+  href: StockWebAPI.Models.StockShareInformation.html#StockWebAPI_Models_StockShareInformation_PbRatio
+  name: PbRatio
+  nameWithType: StockShareInformation.PbRatio
+  fullName: StockWebAPI.Models.StockShareInformation.PbRatio
+- uid: StockWebAPI.Models.StockShareInformation.VWAP*
+  commentId: Overload:StockWebAPI.Models.StockShareInformation.VWAP
+  href: StockWebAPI.Models.StockShareInformation.html#StockWebAPI_Models_StockShareInformation_VWAP
+  name: VWAP
+  nameWithType: StockShareInformation.VWAP
+  fullName: StockWebAPI.Models.StockShareInformation.VWAP

@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: StockDB.Repositories
+  commentId: N:StockDB.Repositories
+  id: StockDB.Repositories
+  children:
+  - StockDB.Repositories.FilingRepository
+  - StockDB.Repositories.IFilingRepository
+  langs:
+  - csharp
+  - vb
+  name: StockDB.Repositories
+  nameWithType: StockDB.Repositories
+  fullName: StockDB.Repositories
+  type: Namespace
+  assemblies:
+  - StockDB
+references:
+- uid: StockDB.Repositories.FilingRepository
+  commentId: T:StockDB.Repositories.FilingRepository
+  href: StockDB.Repositories.FilingRepository.html
+  name: FilingRepository
+  nameWithType: FilingRepository
+  fullName: StockDB.Repositories.FilingRepository
+- uid: StockDB.Repositories.IFilingRepository
+  commentId: T:StockDB.Repositories.IFilingRepository
+  parent: StockDB.Repositories
+  href: StockDB.Repositories.IFilingRepository.html
+  name: IFilingRepository
+  nameWithType: IFilingRepository
+  fullName: StockDB.Repositories.IFilingRepository
+- uid: StockDB.Repositories
+  commentId: N:StockDB.Repositories
+  href: StockDB.html
+  name: StockDB.Repositories
+  nameWithType: StockDB.Repositories
+  fullName: StockDB.Repositories
+  spec.csharp:
+  - uid: StockDB
+    name: StockDB
+    href: StockDB.html
+  - name: .
+  - uid: StockDB.Repositories
+    name: Repositories
+    href: StockDB.Repositories.html
+  spec.vb:
+  - uid: StockDB
+    name: StockDB
+    href: StockDB.html
+  - name: .
+  - uid: StockDB.Repositories
+    name: Repositories
+    href: StockDB.Repositories.html

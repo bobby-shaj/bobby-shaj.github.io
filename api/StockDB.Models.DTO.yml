@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: StockDB.Models.DTO
+  commentId: N:StockDB.Models.DTO
+  id: StockDB.Models.DTO
+  children:
+  - StockDB.Models.DTO.ExhibitDTO
+  - StockDB.Models.DTO.FilingDTO
+  langs:
+  - csharp
+  - vb
+  name: StockDB.Models.DTO
+  nameWithType: StockDB.Models.DTO
+  fullName: StockDB.Models.DTO
+  type: Namespace
+  assemblies:
+  - StockDB
+references:
+- uid: StockDB.Models.DTO.ExhibitDTO
+  commentId: T:StockDB.Models.DTO.ExhibitDTO
+  href: StockDB.Models.DTO.ExhibitDTO.html
+  name: ExhibitDTO
+  nameWithType: ExhibitDTO
+  fullName: StockDB.Models.DTO.ExhibitDTO
+- uid: StockDB.Models.DTO.FilingDTO
+  commentId: T:StockDB.Models.DTO.FilingDTO
+  href: StockDB.Models.DTO.FilingDTO.html
+  name: FilingDTO
+  nameWithType: FilingDTO
+  fullName: StockDB.Models.DTO.FilingDTO

@@ -1,0 +1,1347 @@
+### YamlMime:ManagedReference
+items:
+- uid: StockDB.Repositories.FilingRepository
+  commentId: T:StockDB.Repositories.FilingRepository
+  id: FilingRepository
+  parent: StockDB.Repositories
+  children:
+  - StockDB.Repositories.FilingRepository.#ctor
+  - StockDB.Repositories.FilingRepository.GetAllFilings
+  - StockDB.Repositories.FilingRepository.GetFilingCount(System.String)
+  - StockDB.Repositories.FilingRepository.GetQuarterly
+  - StockDB.Repositories.FilingRepository.GetSectionSixteen
+  - StockDB.Repositories.FilingRepository.GetYearly
+  - StockDB.Repositories.FilingRepository.InsertFilingExhibitsToDB(System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{System.Collections.Generic.List{StockDB.Models.SEC.FilingExhibit}})
+  - StockDB.Repositories.FilingRepository.InsertFilings(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+  - StockDB.Repositories.FilingRepository.InsertFilingsAndReturnIDs(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+  langs:
+  - csharp
+  - vb
+  name: FilingRepository
+  nameWithType: FilingRepository
+  fullName: StockDB.Repositories.FilingRepository
+  type: Class
+  source:
+    remote:
+      path: Repositories/FilingRepository.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: FilingRepository
+    path: ../../StockDB/Repositories/FilingRepository.cs
+    startLine: 9
+  assemblies:
+  - StockDB
+  namespace: StockDB.Repositories
+  syntax:
+    content: 'public class FilingRepository : IFilingRepository'
+    content.vb: Public Class FilingRepository Implements IFilingRepository
+  inheritance:
+  - System.Object
+  implements:
+  - StockDB.Repositories.IFilingRepository
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: StockDB.Repositories.FilingRepository.#ctor
+  commentId: M:StockDB.Repositories.FilingRepository.#ctor
+  id: '#ctor'
+  parent: StockDB.Repositories.FilingRepository
+  langs:
+  - csharp
+  - vb
+  name: FilingRepository()
+  nameWithType: FilingRepository.FilingRepository()
+  fullName: StockDB.Repositories.FilingRepository.FilingRepository()
+  type: Constructor
+  source:
+    remote:
+      path: Repositories/FilingRepository.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: .ctor
+    path: ../../StockDB/Repositories/FilingRepository.cs
+    startLine: 12
+  assemblies:
+  - StockDB
+  namespace: StockDB.Repositories
+  syntax:
+    content: public FilingRepository()
+    content.vb: Public Sub New()
+  overload: StockDB.Repositories.FilingRepository.#ctor*
+  nameWithType.vb: FilingRepository.New()
+  fullName.vb: StockDB.Repositories.FilingRepository.New()
+  name.vb: New()
+- uid: StockDB.Repositories.FilingRepository.GetFilingCount(System.String)
+  commentId: M:StockDB.Repositories.FilingRepository.GetFilingCount(System.String)
+  id: GetFilingCount(System.String)
+  parent: StockDB.Repositories.FilingRepository
+  langs:
+  - csharp
+  - vb
+  name: GetFilingCount(string)
+  nameWithType: FilingRepository.GetFilingCount(string)
+  fullName: StockDB.Repositories.FilingRepository.GetFilingCount(string)
+  type: Method
+  source:
+    remote:
+      path: Repositories/FilingRepository.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: GetFilingCount
+    path: ../../StockDB/Repositories/FilingRepository.cs
+    startLine: 17
+  assemblies:
+  - StockDB
+  namespace: StockDB.Repositories
+  example: []
+  syntax:
+    content: public Task<int> GetFilingCount(string cik)
+    parameters:
+    - id: cik
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Function GetFilingCount(cik As String) As Task(Of Integer)
+  overload: StockDB.Repositories.FilingRepository.GetFilingCount*
+  implements:
+  - StockDB.Repositories.IFilingRepository.GetFilingCount(System.String)
+  nameWithType.vb: FilingRepository.GetFilingCount(String)
+  fullName.vb: StockDB.Repositories.FilingRepository.GetFilingCount(String)
+  name.vb: GetFilingCount(String)
+- uid: StockDB.Repositories.FilingRepository.InsertFilings(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+  commentId: M:StockDB.Repositories.FilingRepository.InsertFilings(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+  id: InsertFilings(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+  parent: StockDB.Repositories.FilingRepository
+  langs:
+  - csharp
+  - vb
+  name: InsertFilings(List<Filing>)
+  nameWithType: FilingRepository.InsertFilings(List<Filing>)
+  fullName: StockDB.Repositories.FilingRepository.InsertFilings(System.Collections.Generic.List<StockDB.Models.DB.Filing>)
+  type: Method
+  source:
+    remote:
+      path: Repositories/FilingRepository.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: InsertFilings
+    path: ../../StockDB/Repositories/FilingRepository.cs
+    startLine: 41
+  assemblies:
+  - StockDB
+  namespace: StockDB.Repositories
+  example: []
+  syntax:
+    content: public Task InsertFilings(List<Filing> filings)
+    parameters:
+    - id: filings
+      type: System.Collections.Generic.List{StockDB.Models.DB.Filing}
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function InsertFilings(filings As List(Of Filing)) As Task
+  overload: StockDB.Repositories.FilingRepository.InsertFilings*
+  implements:
+  - StockDB.Repositories.IFilingRepository.InsertFilings(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+  nameWithType.vb: FilingRepository.InsertFilings(List(Of Filing))
+  fullName.vb: StockDB.Repositories.FilingRepository.InsertFilings(System.Collections.Generic.List(Of StockDB.Models.DB.Filing))
+  name.vb: InsertFilings(List(Of Filing))
+- uid: StockDB.Repositories.FilingRepository.InsertFilingsAndReturnIDs(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+  commentId: M:StockDB.Repositories.FilingRepository.InsertFilingsAndReturnIDs(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+  id: InsertFilingsAndReturnIDs(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+  parent: StockDB.Repositories.FilingRepository
+  langs:
+  - csharp
+  - vb
+  name: InsertFilingsAndReturnIDs(List<Filing>)
+  nameWithType: FilingRepository.InsertFilingsAndReturnIDs(List<Filing>)
+  fullName: StockDB.Repositories.FilingRepository.InsertFilingsAndReturnIDs(System.Collections.Generic.List<StockDB.Models.DB.Filing>)
+  type: Method
+  source:
+    remote:
+      path: Repositories/FilingRepository.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: InsertFilingsAndReturnIDs
+    path: ../../StockDB/Repositories/FilingRepository.cs
+    startLine: 94
+  assemblies:
+  - StockDB
+  namespace: StockDB.Repositories
+  example: []
+  syntax:
+    content: public Task<List<int>> InsertFilingsAndReturnIDs(List<Filing> filings)
+    parameters:
+    - id: filings
+      type: System.Collections.Generic.List{StockDB.Models.DB.Filing}
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{System.Int32}}
+    content.vb: Public Function InsertFilingsAndReturnIDs(filings As List(Of Filing)) As Task(Of List(Of Integer))
+  overload: StockDB.Repositories.FilingRepository.InsertFilingsAndReturnIDs*
+  implements:
+  - StockDB.Repositories.IFilingRepository.InsertFilingsAndReturnIDs(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+  nameWithType.vb: FilingRepository.InsertFilingsAndReturnIDs(List(Of Filing))
+  fullName.vb: StockDB.Repositories.FilingRepository.InsertFilingsAndReturnIDs(System.Collections.Generic.List(Of StockDB.Models.DB.Filing))
+  name.vb: InsertFilingsAndReturnIDs(List(Of Filing))
+- uid: StockDB.Repositories.FilingRepository.InsertFilingExhibitsToDB(System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{System.Collections.Generic.List{StockDB.Models.SEC.FilingExhibit}})
+  commentId: M:StockDB.Repositories.FilingRepository.InsertFilingExhibitsToDB(System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{System.Collections.Generic.List{StockDB.Models.SEC.FilingExhibit}})
+  id: InsertFilingExhibitsToDB(System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{System.Collections.Generic.List{StockDB.Models.SEC.FilingExhibit}})
+  parent: StockDB.Repositories.FilingRepository
+  langs:
+  - csharp
+  - vb
+  name: InsertFilingExhibitsToDB(List<int>, List<List<FilingExhibit>>)
+  nameWithType: FilingRepository.InsertFilingExhibitsToDB(List<int>, List<List<FilingExhibit>>)
+  fullName: StockDB.Repositories.FilingRepository.InsertFilingExhibitsToDB(System.Collections.Generic.List<int>, System.Collections.Generic.List<System.Collections.Generic.List<StockDB.Models.SEC.FilingExhibit>>)
+  type: Method
+  source:
+    remote:
+      path: Repositories/FilingRepository.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: InsertFilingExhibitsToDB
+    path: ../../StockDB/Repositories/FilingRepository.cs
+    startLine: 159
+  assemblies:
+  - StockDB
+  namespace: StockDB.Repositories
+  example: []
+  syntax:
+    content: public Task InsertFilingExhibitsToDB(List<int> filingIDs, List<List<FilingExhibit>> filingExhibitsLists)
+    parameters:
+    - id: filingIDs
+      type: System.Collections.Generic.List{System.Int32}
+    - id: filingExhibitsLists
+      type: System.Collections.Generic.List{System.Collections.Generic.List{StockDB.Models.SEC.FilingExhibit}}
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function InsertFilingExhibitsToDB(filingIDs As List(Of Integer), filingExhibitsLists As List(Of List(Of FilingExhibit))) As Task
+  overload: StockDB.Repositories.FilingRepository.InsertFilingExhibitsToDB*
+  implements:
+  - StockDB.Repositories.IFilingRepository.InsertFilingExhibitsToDB(System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{System.Collections.Generic.List{StockDB.Models.SEC.FilingExhibit}})
+  nameWithType.vb: FilingRepository.InsertFilingExhibitsToDB(List(Of Integer), List(Of List(Of FilingExhibit)))
+  fullName.vb: StockDB.Repositories.FilingRepository.InsertFilingExhibitsToDB(System.Collections.Generic.List(Of Integer), System.Collections.Generic.List(Of System.Collections.Generic.List(Of StockDB.Models.SEC.FilingExhibit)))
+  name.vb: InsertFilingExhibitsToDB(List(Of Integer), List(Of List(Of FilingExhibit)))
+- uid: StockDB.Repositories.FilingRepository.GetAllFilings
+  commentId: M:StockDB.Repositories.FilingRepository.GetAllFilings
+  id: GetAllFilings
+  parent: StockDB.Repositories.FilingRepository
+  langs:
+  - csharp
+  - vb
+  name: GetAllFilings()
+  nameWithType: FilingRepository.GetAllFilings()
+  fullName: StockDB.Repositories.FilingRepository.GetAllFilings()
+  type: Method
+  source:
+    remote:
+      path: Repositories/FilingRepository.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: GetAllFilings
+    path: ../../StockDB/Repositories/FilingRepository.cs
+    startLine: 211
+  assemblies:
+  - StockDB
+  namespace: StockDB.Repositories
+  example: []
+  syntax:
+    content: public Task<List<FilingDTO>> GetAllFilings()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+    content.vb: Public Function GetAllFilings() As Task(Of List(Of FilingDTO))
+  overload: StockDB.Repositories.FilingRepository.GetAllFilings*
+  implements:
+  - StockDB.Repositories.IFilingRepository.GetAllFilings
+- uid: StockDB.Repositories.FilingRepository.GetYearly
+  commentId: M:StockDB.Repositories.FilingRepository.GetYearly
+  id: GetYearly
+  parent: StockDB.Repositories.FilingRepository
+  langs:
+  - csharp
+  - vb
+  name: GetYearly()
+  nameWithType: FilingRepository.GetYearly()
+  fullName: StockDB.Repositories.FilingRepository.GetYearly()
+  type: Method
+  source:
+    remote:
+      path: Repositories/FilingRepository.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: GetYearly
+    path: ../../StockDB/Repositories/FilingRepository.cs
+    startLine: 274
+  assemblies:
+  - StockDB
+  namespace: StockDB.Repositories
+  example: []
+  syntax:
+    content: public Task<List<FilingDTO>> GetYearly()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+    content.vb: Public Function GetYearly() As Task(Of List(Of FilingDTO))
+  overload: StockDB.Repositories.FilingRepository.GetYearly*
+  implements:
+  - StockDB.Repositories.IFilingRepository.GetYearly
+- uid: StockDB.Repositories.FilingRepository.GetQuarterly
+  commentId: M:StockDB.Repositories.FilingRepository.GetQuarterly
+  id: GetQuarterly
+  parent: StockDB.Repositories.FilingRepository
+  langs:
+  - csharp
+  - vb
+  name: GetQuarterly()
+  nameWithType: FilingRepository.GetQuarterly()
+  fullName: StockDB.Repositories.FilingRepository.GetQuarterly()
+  type: Method
+  source:
+    remote:
+      path: Repositories/FilingRepository.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: GetQuarterly
+    path: ../../StockDB/Repositories/FilingRepository.cs
+    startLine: 337
+  assemblies:
+  - StockDB
+  namespace: StockDB.Repositories
+  example: []
+  syntax:
+    content: public Task<List<FilingDTO>> GetQuarterly()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+    content.vb: Public Function GetQuarterly() As Task(Of List(Of FilingDTO))
+  overload: StockDB.Repositories.FilingRepository.GetQuarterly*
+  implements:
+  - StockDB.Repositories.IFilingRepository.GetQuarterly
+- uid: StockDB.Repositories.FilingRepository.GetSectionSixteen
+  commentId: M:StockDB.Repositories.FilingRepository.GetSectionSixteen
+  id: GetSectionSixteen
+  parent: StockDB.Repositories.FilingRepository
+  langs:
+  - csharp
+  - vb
+  name: GetSectionSixteen()
+  nameWithType: FilingRepository.GetSectionSixteen()
+  fullName: StockDB.Repositories.FilingRepository.GetSectionSixteen()
+  type: Method
+  source:
+    remote:
+      path: Repositories/FilingRepository.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: GetSectionSixteen
+    path: ../../StockDB/Repositories/FilingRepository.cs
+    startLine: 400
+  assemblies:
+  - StockDB
+  namespace: StockDB.Repositories
+  example: []
+  syntax:
+    content: public Task<List<FilingDTO>> GetSectionSixteen()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+    content.vb: Public Function GetSectionSixteen() As Task(Of List(Of FilingDTO))
+  overload: StockDB.Repositories.FilingRepository.GetSectionSixteen*
+  implements:
+  - StockDB.Repositories.IFilingRepository.GetSectionSixteen
+references:
+- uid: StockDB.Repositories
+  commentId: N:StockDB.Repositories
+  href: StockDB.html
+  name: StockDB.Repositories
+  nameWithType: StockDB.Repositories
+  fullName: StockDB.Repositories
+  spec.csharp:
+  - uid: StockDB
+    name: StockDB
+    href: StockDB.html
+  - name: .
+  - uid: StockDB.Repositories
+    name: Repositories
+    href: StockDB.Repositories.html
+  spec.vb:
+  - uid: StockDB
+    name: StockDB
+    href: StockDB.html
+  - name: .
+  - uid: StockDB.Repositories
+    name: Repositories
+    href: StockDB.Repositories.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: StockDB.Repositories.IFilingRepository
+  commentId: T:StockDB.Repositories.IFilingRepository
+  parent: StockDB.Repositories
+  href: StockDB.Repositories.IFilingRepository.html
+  name: IFilingRepository
+  nameWithType: IFilingRepository
+  fullName: StockDB.Repositories.IFilingRepository
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StockDB.Repositories.FilingRepository.#ctor*
+  commentId: Overload:StockDB.Repositories.FilingRepository.#ctor
+  href: StockDB.Repositories.FilingRepository.html#StockDB_Repositories_FilingRepository__ctor
+  name: FilingRepository
+  nameWithType: FilingRepository.FilingRepository
+  fullName: StockDB.Repositories.FilingRepository.FilingRepository
+  nameWithType.vb: FilingRepository.New
+  fullName.vb: StockDB.Repositories.FilingRepository.New
+  name.vb: New
+- uid: StockDB.Repositories.FilingRepository.GetFilingCount*
+  commentId: Overload:StockDB.Repositories.FilingRepository.GetFilingCount
+  href: StockDB.Repositories.FilingRepository.html#StockDB_Repositories_FilingRepository_GetFilingCount_System_String_
+  name: GetFilingCount
+  nameWithType: FilingRepository.GetFilingCount
+  fullName: StockDB.Repositories.FilingRepository.GetFilingCount
+- uid: StockDB.Repositories.IFilingRepository.GetFilingCount(System.String)
+  commentId: M:StockDB.Repositories.IFilingRepository.GetFilingCount(System.String)
+  parent: StockDB.Repositories.IFilingRepository
+  isExternal: true
+  href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_GetFilingCount_System_String_
+  name: GetFilingCount(string)
+  nameWithType: IFilingRepository.GetFilingCount(string)
+  fullName: StockDB.Repositories.IFilingRepository.GetFilingCount(string)
+  nameWithType.vb: IFilingRepository.GetFilingCount(String)
+  fullName.vb: StockDB.Repositories.IFilingRepository.GetFilingCount(String)
+  name.vb: GetFilingCount(String)
+  spec.csharp:
+  - uid: StockDB.Repositories.IFilingRepository.GetFilingCount(System.String)
+    name: GetFilingCount
+    href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_GetFilingCount_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: StockDB.Repositories.IFilingRepository.GetFilingCount(System.String)
+    name: GetFilingCount
+    href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_GetFilingCount_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: T:System.Threading.Tasks.Task{System.Int32}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<int>
+  nameWithType: Task<int>
+  fullName: System.Threading.Tasks.Task<int>
+  nameWithType.vb: Task(Of Integer)
+  fullName.vb: System.Threading.Tasks.Task(Of Integer)
+  name.vb: Task(Of Integer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: StockDB.Repositories.FilingRepository.InsertFilings*
+  commentId: Overload:StockDB.Repositories.FilingRepository.InsertFilings
+  href: StockDB.Repositories.FilingRepository.html#StockDB_Repositories_FilingRepository_InsertFilings_System_Collections_Generic_List_StockDB_Models_DB_Filing__
+  name: InsertFilings
+  nameWithType: FilingRepository.InsertFilings
+  fullName: StockDB.Repositories.FilingRepository.InsertFilings
+- uid: StockDB.Repositories.IFilingRepository.InsertFilings(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+  commentId: M:StockDB.Repositories.IFilingRepository.InsertFilings(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+  parent: StockDB.Repositories.IFilingRepository
+  isExternal: true
+  href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_InsertFilings_System_Collections_Generic_List_StockDB_Models_DB_Filing__
+  name: InsertFilings(List<Filing>)
+  nameWithType: IFilingRepository.InsertFilings(List<Filing>)
+  fullName: StockDB.Repositories.IFilingRepository.InsertFilings(System.Collections.Generic.List<StockDB.Models.DB.Filing>)
+  nameWithType.vb: IFilingRepository.InsertFilings(List(Of Filing))
+  fullName.vb: StockDB.Repositories.IFilingRepository.InsertFilings(System.Collections.Generic.List(Of StockDB.Models.DB.Filing))
+  name.vb: InsertFilings(List(Of Filing))
+  spec.csharp:
+  - uid: StockDB.Repositories.IFilingRepository.InsertFilings(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+    name: InsertFilings
+    href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_InsertFilings_System_Collections_Generic_List_StockDB_Models_DB_Filing__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: StockDB.Models.DB.Filing
+    name: Filing
+    href: StockDB.Models.DB.Filing.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: StockDB.Repositories.IFilingRepository.InsertFilings(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+    name: InsertFilings
+    href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_InsertFilings_System_Collections_Generic_List_StockDB_Models_DB_Filing__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: StockDB.Models.DB.Filing
+    name: Filing
+    href: StockDB.Models.DB.Filing.html
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.List{StockDB.Models.DB.Filing}
+  commentId: T:System.Collections.Generic.List{StockDB.Models.DB.Filing}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Filing>
+  nameWithType: List<Filing>
+  fullName: System.Collections.Generic.List<StockDB.Models.DB.Filing>
+  nameWithType.vb: List(Of Filing)
+  fullName.vb: System.Collections.Generic.List(Of StockDB.Models.DB.Filing)
+  name.vb: List(Of Filing)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: StockDB.Models.DB.Filing
+    name: Filing
+    href: StockDB.Models.DB.Filing.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: StockDB.Models.DB.Filing
+    name: Filing
+    href: StockDB.Models.DB.Filing.html
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: StockDB.Repositories.FilingRepository.InsertFilingsAndReturnIDs*
+  commentId: Overload:StockDB.Repositories.FilingRepository.InsertFilingsAndReturnIDs
+  href: StockDB.Repositories.FilingRepository.html#StockDB_Repositories_FilingRepository_InsertFilingsAndReturnIDs_System_Collections_Generic_List_StockDB_Models_DB_Filing__
+  name: InsertFilingsAndReturnIDs
+  nameWithType: FilingRepository.InsertFilingsAndReturnIDs
+  fullName: StockDB.Repositories.FilingRepository.InsertFilingsAndReturnIDs
+- uid: StockDB.Repositories.IFilingRepository.InsertFilingsAndReturnIDs(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+  commentId: M:StockDB.Repositories.IFilingRepository.InsertFilingsAndReturnIDs(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+  parent: StockDB.Repositories.IFilingRepository
+  isExternal: true
+  href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_InsertFilingsAndReturnIDs_System_Collections_Generic_List_StockDB_Models_DB_Filing__
+  name: InsertFilingsAndReturnIDs(List<Filing>)
+  nameWithType: IFilingRepository.InsertFilingsAndReturnIDs(List<Filing>)
+  fullName: StockDB.Repositories.IFilingRepository.InsertFilingsAndReturnIDs(System.Collections.Generic.List<StockDB.Models.DB.Filing>)
+  nameWithType.vb: IFilingRepository.InsertFilingsAndReturnIDs(List(Of Filing))
+  fullName.vb: StockDB.Repositories.IFilingRepository.InsertFilingsAndReturnIDs(System.Collections.Generic.List(Of StockDB.Models.DB.Filing))
+  name.vb: InsertFilingsAndReturnIDs(List(Of Filing))
+  spec.csharp:
+  - uid: StockDB.Repositories.IFilingRepository.InsertFilingsAndReturnIDs(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+    name: InsertFilingsAndReturnIDs
+    href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_InsertFilingsAndReturnIDs_System_Collections_Generic_List_StockDB_Models_DB_Filing__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: StockDB.Models.DB.Filing
+    name: Filing
+    href: StockDB.Models.DB.Filing.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: StockDB.Repositories.IFilingRepository.InsertFilingsAndReturnIDs(System.Collections.Generic.List{StockDB.Models.DB.Filing})
+    name: InsertFilingsAndReturnIDs
+    href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_InsertFilingsAndReturnIDs_System_Collections_Generic_List_StockDB_Models_DB_Filing__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: StockDB.Models.DB.Filing
+    name: Filing
+    href: StockDB.Models.DB.Filing.html
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{System.Int32}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{System.Int32}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<int>>
+  nameWithType: Task<List<int>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<int>>
+  nameWithType.vb: Task(Of List(Of Integer))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of Integer))
+  name.vb: Task(Of List(Of Integer))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: )
+- uid: StockDB.Repositories.FilingRepository.InsertFilingExhibitsToDB*
+  commentId: Overload:StockDB.Repositories.FilingRepository.InsertFilingExhibitsToDB
+  href: StockDB.Repositories.FilingRepository.html#StockDB_Repositories_FilingRepository_InsertFilingExhibitsToDB_System_Collections_Generic_List_System_Int32__System_Collections_Generic_List_System_Collections_Generic_List_StockDB_Models_SEC_FilingExhibit___
+  name: InsertFilingExhibitsToDB
+  nameWithType: FilingRepository.InsertFilingExhibitsToDB
+  fullName: StockDB.Repositories.FilingRepository.InsertFilingExhibitsToDB
+- uid: StockDB.Repositories.IFilingRepository.InsertFilingExhibitsToDB(System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{System.Collections.Generic.List{StockDB.Models.SEC.FilingExhibit}})
+  commentId: M:StockDB.Repositories.IFilingRepository.InsertFilingExhibitsToDB(System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{System.Collections.Generic.List{StockDB.Models.SEC.FilingExhibit}})
+  parent: StockDB.Repositories.IFilingRepository
+  isExternal: true
+  href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_InsertFilingExhibitsToDB_System_Collections_Generic_List_System_Int32__System_Collections_Generic_List_System_Collections_Generic_List_StockDB_Models_SEC_FilingExhibit___
+  name: InsertFilingExhibitsToDB(List<int>, List<List<FilingExhibit>>)
+  nameWithType: IFilingRepository.InsertFilingExhibitsToDB(List<int>, List<List<FilingExhibit>>)
+  fullName: StockDB.Repositories.IFilingRepository.InsertFilingExhibitsToDB(System.Collections.Generic.List<int>, System.Collections.Generic.List<System.Collections.Generic.List<StockDB.Models.SEC.FilingExhibit>>)
+  nameWithType.vb: IFilingRepository.InsertFilingExhibitsToDB(List(Of Integer), List(Of List(Of FilingExhibit)))
+  fullName.vb: StockDB.Repositories.IFilingRepository.InsertFilingExhibitsToDB(System.Collections.Generic.List(Of Integer), System.Collections.Generic.List(Of System.Collections.Generic.List(Of StockDB.Models.SEC.FilingExhibit)))
+  name.vb: InsertFilingExhibitsToDB(List(Of Integer), List(Of List(Of FilingExhibit)))
+  spec.csharp:
+  - uid: StockDB.Repositories.IFilingRepository.InsertFilingExhibitsToDB(System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{System.Collections.Generic.List{StockDB.Models.SEC.FilingExhibit}})
+    name: InsertFilingExhibitsToDB
+    href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_InsertFilingExhibitsToDB_System_Collections_Generic_List_System_Int32__System_Collections_Generic_List_System_Collections_Generic_List_StockDB_Models_SEC_FilingExhibit___
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: StockDB.Models.SEC.FilingExhibit
+    name: FilingExhibit
+    href: StockDB.Models.SEC.FilingExhibit.html
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: StockDB.Repositories.IFilingRepository.InsertFilingExhibitsToDB(System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{System.Collections.Generic.List{StockDB.Models.SEC.FilingExhibit}})
+    name: InsertFilingExhibitsToDB
+    href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_InsertFilingExhibitsToDB_System_Collections_Generic_List_System_Int32__System_Collections_Generic_List_System_Collections_Generic_List_StockDB_Models_SEC_FilingExhibit___
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: StockDB.Models.SEC.FilingExhibit
+    name: FilingExhibit
+    href: StockDB.Models.SEC.FilingExhibit.html
+  - name: )
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.List{System.Int32}
+  commentId: T:System.Collections.Generic.List{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<int>
+  nameWithType: List<int>
+  fullName: System.Collections.Generic.List<int>
+  nameWithType.vb: List(Of Integer)
+  fullName.vb: System.Collections.Generic.List(Of Integer)
+  name.vb: List(Of Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Collections.Generic.List{System.Collections.Generic.List{StockDB.Models.SEC.FilingExhibit}}
+  commentId: T:System.Collections.Generic.List{System.Collections.Generic.List{StockDB.Models.SEC.FilingExhibit}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<List<FilingExhibit>>
+  nameWithType: List<List<FilingExhibit>>
+  fullName: System.Collections.Generic.List<System.Collections.Generic.List<StockDB.Models.SEC.FilingExhibit>>
+  nameWithType.vb: List(Of List(Of FilingExhibit))
+  fullName.vb: System.Collections.Generic.List(Of System.Collections.Generic.List(Of StockDB.Models.SEC.FilingExhibit))
+  name.vb: List(Of List(Of FilingExhibit))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: StockDB.Models.SEC.FilingExhibit
+    name: FilingExhibit
+    href: StockDB.Models.SEC.FilingExhibit.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: StockDB.Models.SEC.FilingExhibit
+    name: FilingExhibit
+    href: StockDB.Models.SEC.FilingExhibit.html
+  - name: )
+  - name: )
+- uid: StockDB.Repositories.FilingRepository.GetAllFilings*
+  commentId: Overload:StockDB.Repositories.FilingRepository.GetAllFilings
+  href: StockDB.Repositories.FilingRepository.html#StockDB_Repositories_FilingRepository_GetAllFilings
+  name: GetAllFilings
+  nameWithType: FilingRepository.GetAllFilings
+  fullName: StockDB.Repositories.FilingRepository.GetAllFilings
+- uid: StockDB.Repositories.IFilingRepository.GetAllFilings
+  commentId: M:StockDB.Repositories.IFilingRepository.GetAllFilings
+  parent: StockDB.Repositories.IFilingRepository
+  href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_GetAllFilings
+  name: GetAllFilings()
+  nameWithType: IFilingRepository.GetAllFilings()
+  fullName: StockDB.Repositories.IFilingRepository.GetAllFilings()
+  spec.csharp:
+  - uid: StockDB.Repositories.IFilingRepository.GetAllFilings
+    name: GetAllFilings
+    href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_GetAllFilings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: StockDB.Repositories.IFilingRepository.GetAllFilings
+    name: GetAllFilings
+    href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_GetAllFilings
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<FilingDTO>>
+  nameWithType: Task<List<FilingDTO>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<StockDB.Models.DTO.FilingDTO>>
+  nameWithType.vb: Task(Of List(Of FilingDTO))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of StockDB.Models.DTO.FilingDTO))
+  name.vb: Task(Of List(Of FilingDTO))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: StockDB.Models.DTO.FilingDTO
+    name: FilingDTO
+    href: StockDB.Models.DTO.FilingDTO.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: StockDB.Models.DTO.FilingDTO
+    name: FilingDTO
+    href: StockDB.Models.DTO.FilingDTO.html
+  - name: )
+  - name: )
+- uid: StockDB.Repositories.FilingRepository.GetYearly*
+  commentId: Overload:StockDB.Repositories.FilingRepository.GetYearly
+  href: StockDB.Repositories.FilingRepository.html#StockDB_Repositories_FilingRepository_GetYearly
+  name: GetYearly
+  nameWithType: FilingRepository.GetYearly
+  fullName: StockDB.Repositories.FilingRepository.GetYearly
+- uid: StockDB.Repositories.IFilingRepository.GetYearly
+  commentId: M:StockDB.Repositories.IFilingRepository.GetYearly
+  parent: StockDB.Repositories.IFilingRepository
+  href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_GetYearly
+  name: GetYearly()
+  nameWithType: IFilingRepository.GetYearly()
+  fullName: StockDB.Repositories.IFilingRepository.GetYearly()
+  spec.csharp:
+  - uid: StockDB.Repositories.IFilingRepository.GetYearly
+    name: GetYearly
+    href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_GetYearly
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: StockDB.Repositories.IFilingRepository.GetYearly
+    name: GetYearly
+    href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_GetYearly
+  - name: (
+  - name: )
+- uid: StockDB.Repositories.FilingRepository.GetQuarterly*
+  commentId: Overload:StockDB.Repositories.FilingRepository.GetQuarterly
+  href: StockDB.Repositories.FilingRepository.html#StockDB_Repositories_FilingRepository_GetQuarterly
+  name: GetQuarterly
+  nameWithType: FilingRepository.GetQuarterly
+  fullName: StockDB.Repositories.FilingRepository.GetQuarterly
+- uid: StockDB.Repositories.IFilingRepository.GetQuarterly
+  commentId: M:StockDB.Repositories.IFilingRepository.GetQuarterly
+  parent: StockDB.Repositories.IFilingRepository
+  href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_GetQuarterly
+  name: GetQuarterly()
+  nameWithType: IFilingRepository.GetQuarterly()
+  fullName: StockDB.Repositories.IFilingRepository.GetQuarterly()
+  spec.csharp:
+  - uid: StockDB.Repositories.IFilingRepository.GetQuarterly
+    name: GetQuarterly
+    href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_GetQuarterly
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: StockDB.Repositories.IFilingRepository.GetQuarterly
+    name: GetQuarterly
+    href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_GetQuarterly
+  - name: (
+  - name: )
+- uid: StockDB.Repositories.FilingRepository.GetSectionSixteen*
+  commentId: Overload:StockDB.Repositories.FilingRepository.GetSectionSixteen
+  href: StockDB.Repositories.FilingRepository.html#StockDB_Repositories_FilingRepository_GetSectionSixteen
+  name: GetSectionSixteen
+  nameWithType: FilingRepository.GetSectionSixteen
+  fullName: StockDB.Repositories.FilingRepository.GetSectionSixteen
+- uid: StockDB.Repositories.IFilingRepository.GetSectionSixteen
+  commentId: M:StockDB.Repositories.IFilingRepository.GetSectionSixteen
+  parent: StockDB.Repositories.IFilingRepository
+  href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_GetSectionSixteen
+  name: GetSectionSixteen()
+  nameWithType: IFilingRepository.GetSectionSixteen()
+  fullName: StockDB.Repositories.IFilingRepository.GetSectionSixteen()
+  spec.csharp:
+  - uid: StockDB.Repositories.IFilingRepository.GetSectionSixteen
+    name: GetSectionSixteen
+    href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_GetSectionSixteen
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: StockDB.Repositories.IFilingRepository.GetSectionSixteen
+    name: GetSectionSixteen
+    href: StockDB.Repositories.IFilingRepository.html#StockDB_Repositories_IFilingRepository_GetSectionSixteen
+  - name: (
+  - name: )

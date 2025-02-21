@@ -1,0 +1,718 @@
+### YamlMime:ManagedReference
+items:
+- uid: StockDB.Models.DTO.FilingDTO
+  commentId: T:StockDB.Models.DTO.FilingDTO
+  id: FilingDTO
+  parent: StockDB.Models.DTO
+  children:
+  - StockDB.Models.DTO.FilingDTO.AccessionNum
+  - StockDB.Models.DTO.FilingDTO.Exhibits
+  - StockDB.Models.DTO.FilingDTO.FilingDate
+  - StockDB.Models.DTO.FilingDTO.FilingDescription
+  - StockDB.Models.DTO.FilingDTO.FilingType
+  - StockDB.Models.DTO.FilingDTO.IsXBRL
+  - StockDB.Models.DTO.FilingDTO.PrimaryDocURL
+  langs:
+  - csharp
+  - vb
+  name: FilingDTO
+  nameWithType: FilingDTO
+  fullName: StockDB.Models.DTO.FilingDTO
+  type: Class
+  source:
+    remote:
+      path: Models/Filing/FilingDTO.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: FilingDTO
+    path: ../../StockDB/Models/Filing/FilingDTO.cs
+    startLine: 15
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.DTO
+  syntax:
+    content: public class FilingDTO
+    content.vb: Public Class FilingDTO
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: StockDB.Models.DTO.FilingDTO.AccessionNum
+  commentId: P:StockDB.Models.DTO.FilingDTO.AccessionNum
+  id: AccessionNum
+  parent: StockDB.Models.DTO.FilingDTO
+  langs:
+  - csharp
+  - vb
+  name: AccessionNum
+  nameWithType: FilingDTO.AccessionNum
+  fullName: StockDB.Models.DTO.FilingDTO.AccessionNum
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingDTO.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: AccessionNum
+    path: ../../StockDB/Models/Filing/FilingDTO.cs
+    startLine: 17
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.DTO
+  syntax:
+    content: public string? AccessionNum { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AccessionNum As String
+  overload: StockDB.Models.DTO.FilingDTO.AccessionNum*
+- uid: StockDB.Models.DTO.FilingDTO.FilingDate
+  commentId: P:StockDB.Models.DTO.FilingDTO.FilingDate
+  id: FilingDate
+  parent: StockDB.Models.DTO.FilingDTO
+  langs:
+  - csharp
+  - vb
+  name: FilingDate
+  nameWithType: FilingDTO.FilingDate
+  fullName: StockDB.Models.DTO.FilingDTO.FilingDate
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingDTO.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: FilingDate
+    path: ../../StockDB/Models/Filing/FilingDTO.cs
+    startLine: 18
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.DTO
+  syntax:
+    content: public string? FilingDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FilingDate As String
+  overload: StockDB.Models.DTO.FilingDTO.FilingDate*
+- uid: StockDB.Models.DTO.FilingDTO.FilingType
+  commentId: P:StockDB.Models.DTO.FilingDTO.FilingType
+  id: FilingType
+  parent: StockDB.Models.DTO.FilingDTO
+  langs:
+  - csharp
+  - vb
+  name: FilingType
+  nameWithType: FilingDTO.FilingType
+  fullName: StockDB.Models.DTO.FilingDTO.FilingType
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingDTO.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: FilingType
+    path: ../../StockDB/Models/Filing/FilingDTO.cs
+    startLine: 19
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.DTO
+  syntax:
+    content: public string? FilingType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FilingType As String
+  overload: StockDB.Models.DTO.FilingDTO.FilingType*
+- uid: StockDB.Models.DTO.FilingDTO.FilingDescription
+  commentId: P:StockDB.Models.DTO.FilingDTO.FilingDescription
+  id: FilingDescription
+  parent: StockDB.Models.DTO.FilingDTO
+  langs:
+  - csharp
+  - vb
+  name: FilingDescription
+  nameWithType: FilingDTO.FilingDescription
+  fullName: StockDB.Models.DTO.FilingDTO.FilingDescription
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingDTO.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: FilingDescription
+    path: ../../StockDB/Models/Filing/FilingDTO.cs
+    startLine: 21
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.DTO
+  syntax:
+    content: public string? FilingDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FilingDescription As String
+  overload: StockDB.Models.DTO.FilingDTO.FilingDescription*
+- uid: StockDB.Models.DTO.FilingDTO.IsXBRL
+  commentId: P:StockDB.Models.DTO.FilingDTO.IsXBRL
+  id: IsXBRL
+  parent: StockDB.Models.DTO.FilingDTO
+  langs:
+  - csharp
+  - vb
+  name: IsXBRL
+  nameWithType: FilingDTO.IsXBRL
+  fullName: StockDB.Models.DTO.FilingDTO.IsXBRL
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingDTO.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: IsXBRL
+    path: ../../StockDB/Models/Filing/FilingDTO.cs
+    startLine: 23
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.DTO
+  syntax:
+    content: public int? IsXBRL { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property IsXBRL As Integer?
+  overload: StockDB.Models.DTO.FilingDTO.IsXBRL*
+- uid: StockDB.Models.DTO.FilingDTO.PrimaryDocURL
+  commentId: P:StockDB.Models.DTO.FilingDTO.PrimaryDocURL
+  id: PrimaryDocURL
+  parent: StockDB.Models.DTO.FilingDTO
+  langs:
+  - csharp
+  - vb
+  name: PrimaryDocURL
+  nameWithType: FilingDTO.PrimaryDocURL
+  fullName: StockDB.Models.DTO.FilingDTO.PrimaryDocURL
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingDTO.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: PrimaryDocURL
+    path: ../../StockDB/Models/Filing/FilingDTO.cs
+    startLine: 24
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.DTO
+  syntax:
+    content: public string? PrimaryDocURL { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PrimaryDocURL As String
+  overload: StockDB.Models.DTO.FilingDTO.PrimaryDocURL*
+- uid: StockDB.Models.DTO.FilingDTO.Exhibits
+  commentId: P:StockDB.Models.DTO.FilingDTO.Exhibits
+  id: Exhibits
+  parent: StockDB.Models.DTO.FilingDTO
+  langs:
+  - csharp
+  - vb
+  name: Exhibits
+  nameWithType: FilingDTO.Exhibits
+  fullName: StockDB.Models.DTO.FilingDTO.Exhibits
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingDTO.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: Exhibits
+    path: ../../StockDB/Models/Filing/FilingDTO.cs
+    startLine: 25
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.DTO
+  syntax:
+    content: public List<ExhibitDTO>? Exhibits { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{StockDB.Models.DTO.ExhibitDTO}
+    content.vb: Public Property Exhibits As List(Of ExhibitDTO)
+  overload: StockDB.Models.DTO.FilingDTO.Exhibits*
+references:
+- uid: StockDB.Models.DTO
+  commentId: N:StockDB.Models.DTO
+  href: StockDB.html
+  name: StockDB.Models.DTO
+  nameWithType: StockDB.Models.DTO
+  fullName: StockDB.Models.DTO
+  spec.csharp:
+  - uid: StockDB
+    name: StockDB
+    href: StockDB.html
+  - name: .
+  - uid: StockDB.Models
+    name: Models
+    href: StockDB.Models.html
+  - name: .
+  - uid: StockDB.Models.DTO
+    name: DTO
+    href: StockDB.Models.DTO.html
+  spec.vb:
+  - uid: StockDB
+    name: StockDB
+    href: StockDB.html
+  - name: .
+  - uid: StockDB.Models
+    name: Models
+    href: StockDB.Models.html
+  - name: .
+  - uid: StockDB.Models.DTO
+    name: DTO
+    href: StockDB.Models.DTO.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StockDB.Models.DTO.FilingDTO.AccessionNum*
+  commentId: Overload:StockDB.Models.DTO.FilingDTO.AccessionNum
+  href: StockDB.Models.DTO.FilingDTO.html#StockDB_Models_DTO_FilingDTO_AccessionNum
+  name: AccessionNum
+  nameWithType: FilingDTO.AccessionNum
+  fullName: StockDB.Models.DTO.FilingDTO.AccessionNum
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: StockDB.Models.DTO.FilingDTO.FilingDate*
+  commentId: Overload:StockDB.Models.DTO.FilingDTO.FilingDate
+  href: StockDB.Models.DTO.FilingDTO.html#StockDB_Models_DTO_FilingDTO_FilingDate
+  name: FilingDate
+  nameWithType: FilingDTO.FilingDate
+  fullName: StockDB.Models.DTO.FilingDTO.FilingDate
+- uid: StockDB.Models.DTO.FilingDTO.FilingType*
+  commentId: Overload:StockDB.Models.DTO.FilingDTO.FilingType
+  href: StockDB.Models.DTO.FilingDTO.html#StockDB_Models_DTO_FilingDTO_FilingType
+  name: FilingType
+  nameWithType: FilingDTO.FilingType
+  fullName: StockDB.Models.DTO.FilingDTO.FilingType
+- uid: StockDB.Models.DTO.FilingDTO.FilingDescription*
+  commentId: Overload:StockDB.Models.DTO.FilingDTO.FilingDescription
+  href: StockDB.Models.DTO.FilingDTO.html#StockDB_Models_DTO_FilingDTO_FilingDescription
+  name: FilingDescription
+  nameWithType: FilingDTO.FilingDescription
+  fullName: StockDB.Models.DTO.FilingDTO.FilingDescription
+- uid: StockDB.Models.DTO.FilingDTO.IsXBRL*
+  commentId: Overload:StockDB.Models.DTO.FilingDTO.IsXBRL
+  href: StockDB.Models.DTO.FilingDTO.html#StockDB_Models_DTO_FilingDTO_IsXBRL
+  name: IsXBRL
+  nameWithType: FilingDTO.IsXBRL
+  fullName: StockDB.Models.DTO.FilingDTO.IsXBRL
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: StockDB.Models.DTO.FilingDTO.PrimaryDocURL*
+  commentId: Overload:StockDB.Models.DTO.FilingDTO.PrimaryDocURL
+  href: StockDB.Models.DTO.FilingDTO.html#StockDB_Models_DTO_FilingDTO_PrimaryDocURL
+  name: PrimaryDocURL
+  nameWithType: FilingDTO.PrimaryDocURL
+  fullName: StockDB.Models.DTO.FilingDTO.PrimaryDocURL
+- uid: StockDB.Models.DTO.FilingDTO.Exhibits*
+  commentId: Overload:StockDB.Models.DTO.FilingDTO.Exhibits
+  href: StockDB.Models.DTO.FilingDTO.html#StockDB_Models_DTO_FilingDTO_Exhibits
+  name: Exhibits
+  nameWithType: FilingDTO.Exhibits
+  fullName: StockDB.Models.DTO.FilingDTO.Exhibits
+- uid: System.Collections.Generic.List{StockDB.Models.DTO.ExhibitDTO}
+  commentId: T:System.Collections.Generic.List{StockDB.Models.DTO.ExhibitDTO}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ExhibitDTO>
+  nameWithType: List<ExhibitDTO>
+  fullName: System.Collections.Generic.List<StockDB.Models.DTO.ExhibitDTO>
+  nameWithType.vb: List(Of ExhibitDTO)
+  fullName.vb: System.Collections.Generic.List(Of StockDB.Models.DTO.ExhibitDTO)
+  name.vb: List(Of ExhibitDTO)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: StockDB.Models.DTO.ExhibitDTO
+    name: ExhibitDTO
+    href: StockDB.Models.DTO.ExhibitDTO.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: StockDB.Models.DTO.ExhibitDTO
+    name: ExhibitDTO
+    href: StockDB.Models.DTO.ExhibitDTO.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

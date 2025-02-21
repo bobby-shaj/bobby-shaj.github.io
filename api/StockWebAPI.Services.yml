@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: StockWebAPI.Services
+  commentId: N:StockWebAPI.Services
+  id: StockWebAPI.Services
+  children:
+  - StockWebAPI.Services.FilingsService
+  - StockWebAPI.Services.IFilingsService
+  - StockWebAPI.Services.IStockAPIService
+  - StockWebAPI.Services.StockAPIService
+  langs:
+  - csharp
+  - vb
+  name: StockWebAPI.Services
+  nameWithType: StockWebAPI.Services
+  fullName: StockWebAPI.Services
+  type: Namespace
+  assemblies:
+  - StockWebAPI
+references:
+- uid: StockWebAPI.Services.FilingsService
+  commentId: T:StockWebAPI.Services.FilingsService
+  href: StockWebAPI.Services.FilingsService.html
+  name: FilingsService
+  nameWithType: FilingsService
+  fullName: StockWebAPI.Services.FilingsService
+- uid: StockWebAPI.Services.IFilingsService
+  commentId: T:StockWebAPI.Services.IFilingsService
+  parent: StockWebAPI.Services
+  href: StockWebAPI.Services.IFilingsService.html
+  name: IFilingsService
+  nameWithType: IFilingsService
+  fullName: StockWebAPI.Services.IFilingsService
+- uid: StockWebAPI.Services.IStockAPIService
+  commentId: T:StockWebAPI.Services.IStockAPIService
+  parent: StockWebAPI.Services
+  href: StockWebAPI.Services.IStockAPIService.html
+  name: IStockAPIService
+  nameWithType: IStockAPIService
+  fullName: StockWebAPI.Services.IStockAPIService
+- uid: StockWebAPI.Services.StockAPIService
+  commentId: T:StockWebAPI.Services.StockAPIService
+  href: StockWebAPI.Services.StockAPIService.html
+  name: StockAPIService
+  nameWithType: StockAPIService
+  fullName: StockWebAPI.Services.StockAPIService
+- uid: StockWebAPI.Services
+  commentId: N:StockWebAPI.Services
+  href: StockWebAPI.html
+  name: StockWebAPI.Services
+  nameWithType: StockWebAPI.Services
+  fullName: StockWebAPI.Services
+  spec.csharp:
+  - uid: StockWebAPI
+    name: StockWebAPI
+    href: StockWebAPI.html
+  - name: .
+  - uid: StockWebAPI.Services
+    name: Services
+    href: StockWebAPI.Services.html
+  spec.vb:
+  - uid: StockWebAPI
+    name: StockWebAPI
+    href: StockWebAPI.html
+  - name: .
+  - uid: StockWebAPI.Services
+    name: Services
+    href: StockWebAPI.Services.html

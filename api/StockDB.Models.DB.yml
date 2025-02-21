@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: StockDB.Models.DB
+  commentId: N:StockDB.Models.DB
+  id: StockDB.Models.DB
+  children:
+  - StockDB.Models.DB.Filing
+  langs:
+  - csharp
+  - vb
+  name: StockDB.Models.DB
+  nameWithType: StockDB.Models.DB
+  fullName: StockDB.Models.DB
+  type: Namespace
+  assemblies:
+  - StockDB
+references:
+- uid: StockDB.Models.DB.Filing
+  commentId: T:StockDB.Models.DB.Filing
+  href: StockDB.Models.DB.Filing.html
+  name: Filing
+  nameWithType: Filing
+  fullName: StockDB.Models.DB.Filing

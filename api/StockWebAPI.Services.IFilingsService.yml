@@ -1,0 +1,483 @@
+### YamlMime:ManagedReference
+items:
+- uid: StockWebAPI.Services.IFilingsService
+  commentId: T:StockWebAPI.Services.IFilingsService
+  id: IFilingsService
+  parent: StockWebAPI.Services
+  children:
+  - StockWebAPI.Services.IFilingsService.GetAllFilings
+  - StockWebAPI.Services.IFilingsService.GetExcelFileDocument(System.String)
+  - StockWebAPI.Services.IFilingsService.GetPdfDocument(System.String)
+  - StockWebAPI.Services.IFilingsService.GetQuarterly
+  - StockWebAPI.Services.IFilingsService.GetSectionSixteen
+  - StockWebAPI.Services.IFilingsService.GetXbrlFileDocuments(System.String)
+  - StockWebAPI.Services.IFilingsService.GetYearly
+  langs:
+  - csharp
+  - vb
+  name: IFilingsService
+  nameWithType: IFilingsService
+  fullName: StockWebAPI.Services.IFilingsService
+  type: Interface
+  source:
+    remote:
+      path: Services/IFilingsService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: IFilingsService
+    path: ../Services/IFilingsService.cs
+    startLine: 5
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: public interface IFilingsService
+    content.vb: Public Interface IFilingsService
+- uid: StockWebAPI.Services.IFilingsService.GetAllFilings
+  commentId: M:StockWebAPI.Services.IFilingsService.GetAllFilings
+  id: GetAllFilings
+  parent: StockWebAPI.Services.IFilingsService
+  langs:
+  - csharp
+  - vb
+  name: GetAllFilings()
+  nameWithType: IFilingsService.GetAllFilings()
+  fullName: StockWebAPI.Services.IFilingsService.GetAllFilings()
+  type: Method
+  source:
+    remote:
+      path: Services/IFilingsService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetAllFilings
+    path: ../Services/IFilingsService.cs
+    startLine: 7
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: Task<List<FilingDTO>> GetAllFilings()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+    content.vb: Function GetAllFilings() As Task(Of List(Of FilingDTO))
+  overload: StockWebAPI.Services.IFilingsService.GetAllFilings*
+- uid: StockWebAPI.Services.IFilingsService.GetYearly
+  commentId: M:StockWebAPI.Services.IFilingsService.GetYearly
+  id: GetYearly
+  parent: StockWebAPI.Services.IFilingsService
+  langs:
+  - csharp
+  - vb
+  name: GetYearly()
+  nameWithType: IFilingsService.GetYearly()
+  fullName: StockWebAPI.Services.IFilingsService.GetYearly()
+  type: Method
+  source:
+    remote:
+      path: Services/IFilingsService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetYearly
+    path: ../Services/IFilingsService.cs
+    startLine: 8
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: Task<List<FilingDTO>> GetYearly()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+    content.vb: Function GetYearly() As Task(Of List(Of FilingDTO))
+  overload: StockWebAPI.Services.IFilingsService.GetYearly*
+- uid: StockWebAPI.Services.IFilingsService.GetQuarterly
+  commentId: M:StockWebAPI.Services.IFilingsService.GetQuarterly
+  id: GetQuarterly
+  parent: StockWebAPI.Services.IFilingsService
+  langs:
+  - csharp
+  - vb
+  name: GetQuarterly()
+  nameWithType: IFilingsService.GetQuarterly()
+  fullName: StockWebAPI.Services.IFilingsService.GetQuarterly()
+  type: Method
+  source:
+    remote:
+      path: Services/IFilingsService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetQuarterly
+    path: ../Services/IFilingsService.cs
+    startLine: 9
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: Task<List<FilingDTO>> GetQuarterly()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+    content.vb: Function GetQuarterly() As Task(Of List(Of FilingDTO))
+  overload: StockWebAPI.Services.IFilingsService.GetQuarterly*
+- uid: StockWebAPI.Services.IFilingsService.GetSectionSixteen
+  commentId: M:StockWebAPI.Services.IFilingsService.GetSectionSixteen
+  id: GetSectionSixteen
+  parent: StockWebAPI.Services.IFilingsService
+  langs:
+  - csharp
+  - vb
+  name: GetSectionSixteen()
+  nameWithType: IFilingsService.GetSectionSixteen()
+  fullName: StockWebAPI.Services.IFilingsService.GetSectionSixteen()
+  type: Method
+  source:
+    remote:
+      path: Services/IFilingsService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetSectionSixteen
+    path: ../Services/IFilingsService.cs
+    startLine: 10
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: Task<List<FilingDTO>> GetSectionSixteen()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+    content.vb: Function GetSectionSixteen() As Task(Of List(Of FilingDTO))
+  overload: StockWebAPI.Services.IFilingsService.GetSectionSixteen*
+- uid: StockWebAPI.Services.IFilingsService.GetExcelFileDocument(System.String)
+  commentId: M:StockWebAPI.Services.IFilingsService.GetExcelFileDocument(System.String)
+  id: GetExcelFileDocument(System.String)
+  parent: StockWebAPI.Services.IFilingsService
+  langs:
+  - csharp
+  - vb
+  name: GetExcelFileDocument(string)
+  nameWithType: IFilingsService.GetExcelFileDocument(string)
+  fullName: StockWebAPI.Services.IFilingsService.GetExcelFileDocument(string)
+  type: Method
+  source:
+    remote:
+      path: Services/IFilingsService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetExcelFileDocument
+    path: ../Services/IFilingsService.cs
+    startLine: 11
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: Task<byte[]> GetExcelFileDocument(string accessionNum)
+    parameters:
+    - id: accessionNum
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+    content.vb: Function GetExcelFileDocument(accessionNum As String) As Task(Of Byte())
+  overload: StockWebAPI.Services.IFilingsService.GetExcelFileDocument*
+  nameWithType.vb: IFilingsService.GetExcelFileDocument(String)
+  fullName.vb: StockWebAPI.Services.IFilingsService.GetExcelFileDocument(String)
+  name.vb: GetExcelFileDocument(String)
+- uid: StockWebAPI.Services.IFilingsService.GetXbrlFileDocuments(System.String)
+  commentId: M:StockWebAPI.Services.IFilingsService.GetXbrlFileDocuments(System.String)
+  id: GetXbrlFileDocuments(System.String)
+  parent: StockWebAPI.Services.IFilingsService
+  langs:
+  - csharp
+  - vb
+  name: GetXbrlFileDocuments(string)
+  nameWithType: IFilingsService.GetXbrlFileDocuments(string)
+  fullName: StockWebAPI.Services.IFilingsService.GetXbrlFileDocuments(string)
+  type: Method
+  source:
+    remote:
+      path: Services/IFilingsService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetXbrlFileDocuments
+    path: ../Services/IFilingsService.cs
+    startLine: 12
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: Task<byte[]> GetXbrlFileDocuments(string accessionNum)
+    parameters:
+    - id: accessionNum
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+    content.vb: Function GetXbrlFileDocuments(accessionNum As String) As Task(Of Byte())
+  overload: StockWebAPI.Services.IFilingsService.GetXbrlFileDocuments*
+  nameWithType.vb: IFilingsService.GetXbrlFileDocuments(String)
+  fullName.vb: StockWebAPI.Services.IFilingsService.GetXbrlFileDocuments(String)
+  name.vb: GetXbrlFileDocuments(String)
+- uid: StockWebAPI.Services.IFilingsService.GetPdfDocument(System.String)
+  commentId: M:StockWebAPI.Services.IFilingsService.GetPdfDocument(System.String)
+  id: GetPdfDocument(System.String)
+  parent: StockWebAPI.Services.IFilingsService
+  langs:
+  - csharp
+  - vb
+  name: GetPdfDocument(string)
+  nameWithType: IFilingsService.GetPdfDocument(string)
+  fullName: StockWebAPI.Services.IFilingsService.GetPdfDocument(string)
+  type: Method
+  source:
+    remote:
+      path: Services/IFilingsService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetPdfDocument
+    path: ../Services/IFilingsService.cs
+    startLine: 13
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: Task<byte[]> GetPdfDocument(string url)
+    parameters:
+    - id: url
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+    content.vb: Function GetPdfDocument(url As String) As Task(Of Byte())
+  overload: StockWebAPI.Services.IFilingsService.GetPdfDocument*
+  nameWithType.vb: IFilingsService.GetPdfDocument(String)
+  fullName.vb: StockWebAPI.Services.IFilingsService.GetPdfDocument(String)
+  name.vb: GetPdfDocument(String)
+references:
+- uid: StockWebAPI.Services
+  commentId: N:StockWebAPI.Services
+  href: StockWebAPI.html
+  name: StockWebAPI.Services
+  nameWithType: StockWebAPI.Services
+  fullName: StockWebAPI.Services
+  spec.csharp:
+  - uid: StockWebAPI
+    name: StockWebAPI
+    href: StockWebAPI.html
+  - name: .
+  - uid: StockWebAPI.Services
+    name: Services
+    href: StockWebAPI.Services.html
+  spec.vb:
+  - uid: StockWebAPI
+    name: StockWebAPI
+    href: StockWebAPI.html
+  - name: .
+  - uid: StockWebAPI.Services
+    name: Services
+    href: StockWebAPI.Services.html
+- uid: StockWebAPI.Services.IFilingsService.GetAllFilings*
+  commentId: Overload:StockWebAPI.Services.IFilingsService.GetAllFilings
+  href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetAllFilings
+  name: GetAllFilings
+  nameWithType: IFilingsService.GetAllFilings
+  fullName: StockWebAPI.Services.IFilingsService.GetAllFilings
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{StockDB.Models.DTO.FilingDTO}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<FilingDTO>>
+  nameWithType: Task<List<FilingDTO>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<StockDB.Models.DTO.FilingDTO>>
+  nameWithType.vb: Task(Of List(Of FilingDTO))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of StockDB.Models.DTO.FilingDTO))
+  name.vb: Task(Of List(Of FilingDTO))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: StockDB.Models.DTO.FilingDTO
+    name: FilingDTO
+    href: StockDB.Models.DTO.FilingDTO.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: StockDB.Models.DTO.FilingDTO
+    name: FilingDTO
+    href: StockDB.Models.DTO.FilingDTO.html
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: StockWebAPI.Services.IFilingsService.GetYearly*
+  commentId: Overload:StockWebAPI.Services.IFilingsService.GetYearly
+  href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetYearly
+  name: GetYearly
+  nameWithType: IFilingsService.GetYearly
+  fullName: StockWebAPI.Services.IFilingsService.GetYearly
+- uid: StockWebAPI.Services.IFilingsService.GetQuarterly*
+  commentId: Overload:StockWebAPI.Services.IFilingsService.GetQuarterly
+  href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetQuarterly
+  name: GetQuarterly
+  nameWithType: IFilingsService.GetQuarterly
+  fullName: StockWebAPI.Services.IFilingsService.GetQuarterly
+- uid: StockWebAPI.Services.IFilingsService.GetSectionSixteen*
+  commentId: Overload:StockWebAPI.Services.IFilingsService.GetSectionSixteen
+  href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetSectionSixteen
+  name: GetSectionSixteen
+  nameWithType: IFilingsService.GetSectionSixteen
+  fullName: StockWebAPI.Services.IFilingsService.GetSectionSixteen
+- uid: StockWebAPI.Services.IFilingsService.GetExcelFileDocument*
+  commentId: Overload:StockWebAPI.Services.IFilingsService.GetExcelFileDocument
+  href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetExcelFileDocument_System_String_
+  name: GetExcelFileDocument
+  nameWithType: IFilingsService.GetExcelFileDocument
+  fullName: StockWebAPI.Services.IFilingsService.GetExcelFileDocument
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{System.Byte[]}
+  commentId: T:System.Threading.Tasks.Task{System.Byte[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<byte[]>
+  nameWithType: Task<byte[]>
+  fullName: System.Threading.Tasks.Task<byte[]>
+  nameWithType.vb: Task(Of Byte())
+  fullName.vb: System.Threading.Tasks.Task(Of Byte())
+  name.vb: Task(Of Byte())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StockWebAPI.Services.IFilingsService.GetXbrlFileDocuments*
+  commentId: Overload:StockWebAPI.Services.IFilingsService.GetXbrlFileDocuments
+  href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetXbrlFileDocuments_System_String_
+  name: GetXbrlFileDocuments
+  nameWithType: IFilingsService.GetXbrlFileDocuments
+  fullName: StockWebAPI.Services.IFilingsService.GetXbrlFileDocuments
+- uid: StockWebAPI.Services.IFilingsService.GetPdfDocument*
+  commentId: Overload:StockWebAPI.Services.IFilingsService.GetPdfDocument
+  href: StockWebAPI.Services.IFilingsService.html#StockWebAPI_Services_IFilingsService_GetPdfDocument_System_String_
+  name: GetPdfDocument
+  nameWithType: IFilingsService.GetPdfDocument
+  fullName: StockWebAPI.Services.IFilingsService.GetPdfDocument

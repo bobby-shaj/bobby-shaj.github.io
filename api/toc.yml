@@ -1,0 +1,121 @@
+### YamlMime:TableOfContent
+items:
+- uid: StockDB.Models.DB
+  name: StockDB.Models.DB
+  type: Namespace
+  items:
+  - uid: StockDB.Models.DB.Filing
+    name: Filing
+    type: Class
+- uid: StockDB.Models.DTO
+  name: StockDB.Models.DTO
+  type: Namespace
+  items:
+  - uid: StockDB.Models.DTO.ExhibitDTO
+    name: ExhibitDTO
+    type: Class
+  - uid: StockDB.Models.DTO.FilingDTO
+    name: FilingDTO
+    type: Class
+- uid: StockDB.Models.SEC
+  name: StockDB.Models.SEC
+  type: Namespace
+  items:
+  - uid: StockDB.Models.SEC.FilingAttachmentDTO
+    name: FilingAttachmentDTO
+    type: Class
+  - uid: StockDB.Models.SEC.FilingExhibit
+    name: FilingExhibit
+    type: Class
+  - uid: StockDB.Models.SEC.SecFilingDTO
+    name: SecFilingDTO
+    type: Class
+  - uid: StockDB.Models.SEC.SecFilingData
+    name: SecFilingData
+    type: Class
+  - uid: StockDB.Models.SEC.SecFilings
+    name: SecFilings
+    type: Class
+  - uid: StockDB.Models.SEC.SecSubmission
+    name: SecSubmission
+    type: Class
+- uid: StockDB.Repositories
+  name: StockDB.Repositories
+  type: Namespace
+  items:
+  - uid: StockDB.Repositories.FilingRepository
+    name: FilingRepository
+    type: Class
+  - uid: StockDB.Repositories.IFilingRepository
+    name: IFilingRepository
+    type: Interface
+- uid: StockWebAPI.Controllers
+  name: StockWebAPI.Controllers
+  type: Namespace
+  items:
+  - uid: StockWebAPI.Controllers.FilingsController
+    name: FilingsController
+    type: Class
+  - uid: StockWebAPI.Controllers.StockController
+    name: StockController
+    type: Class
+- uid: StockWebAPI.Models
+  name: StockWebAPI.Models
+  type: Namespace
+  items:
+  - uid: StockWebAPI.Models.CompanyOverviewApiData
+    name: CompanyOverviewApiData
+    type: Class
+  - uid: StockWebAPI.Models.DailyApiData
+    name: DailyApiData
+    type: Class
+  - uid: StockWebAPI.Models.DailyData
+    name: DailyData
+    type: Class
+  - uid: StockWebAPI.Models.DailyDataDTO
+    name: DailyDataDTO
+    type: Class
+  - uid: StockWebAPI.Models.InterDailyApiData
+    name: InterDailyApiData
+    type: Class
+  - uid: StockWebAPI.Models.RealTimeOptionsData
+    name: RealTimeOptionsData
+    type: Class
+  - uid: StockWebAPI.Models.RealtimeOptionsApiData
+    name: RealtimeOptionsApiData
+    type: Class
+  - uid: StockWebAPI.Models.Stock
+    name: Stock
+    type: Class
+  - uid: StockWebAPI.Models.StockDTO
+    name: StockDTO
+    type: Class
+  - uid: StockWebAPI.Models.StockDataPointDTO
+    name: StockDataPointDTO
+    type: Class
+  - uid: StockWebAPI.Models.StockInfoAfterHours
+    name: StockInfoAfterHours
+    type: Class
+  - uid: StockWebAPI.Models.StockInfoToday
+    name: StockInfoToday
+    type: Class
+  - uid: StockWebAPI.Models.StockShareInformation
+    name: StockShareInformation
+    type: Class
+- uid: StockWebAPI.Services
+  name: StockWebAPI.Services
+  type: Namespace
+  items:
+  - uid: StockWebAPI.Services.FilingsService
+    name: FilingsService
+    type: Class
+  - uid: StockWebAPI.Services.IFilingsService
+    name: IFilingsService
+    type: Interface
+  - uid: StockWebAPI.Services.IStockAPIService
+    name: IStockAPIService
+    type: Interface
+  - uid: StockWebAPI.Services.StockAPIService
+    name: StockAPIService
+    type: Class
+memberLayout: SamePage

@@ -1,0 +1,936 @@
+### YamlMime:ManagedReference
+items:
+- uid: StockDB.Models.SEC.SecFilingData
+  commentId: T:StockDB.Models.SEC.SecFilingData
+  id: SecFilingData
+  parent: StockDB.Models.SEC
+  children:
+  - StockDB.Models.SEC.SecFilingData.AccessionNumber
+  - StockDB.Models.SEC.SecFilingData.CoreType
+  - StockDB.Models.SEC.SecFilingData.FilingDate
+  - StockDB.Models.SEC.SecFilingData.Form
+  - StockDB.Models.SEC.SecFilingData.IsInlineXBRL
+  - StockDB.Models.SEC.SecFilingData.IsXBRL
+  - StockDB.Models.SEC.SecFilingData.PrimaryDocDescription
+  - StockDB.Models.SEC.SecFilingData.PrimaryDocument
+  - StockDB.Models.SEC.SecFilingData.Size
+  langs:
+  - csharp
+  - vb
+  name: SecFilingData
+  nameWithType: SecFilingData
+  fullName: StockDB.Models.SEC.SecFilingData
+  type: Class
+  source:
+    remote:
+      path: Models/Filing/FilingSEC.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: SecFilingData
+    path: ../../StockDB/Models/Filing/FilingSEC.cs
+    startLine: 53
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.SEC
+  syntax:
+    content: public class SecFilingData
+    content.vb: Public Class SecFilingData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: StockDB.Models.SEC.SecFilingData.AccessionNumber
+  commentId: P:StockDB.Models.SEC.SecFilingData.AccessionNumber
+  id: AccessionNumber
+  parent: StockDB.Models.SEC.SecFilingData
+  langs:
+  - csharp
+  - vb
+  name: AccessionNumber
+  nameWithType: SecFilingData.AccessionNumber
+  fullName: StockDB.Models.SEC.SecFilingData.AccessionNumber
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingSEC.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: AccessionNumber
+    path: ../../StockDB/Models/Filing/FilingSEC.cs
+    startLine: 55
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.SEC
+  syntax:
+    content: >-
+      [JsonRequired]
+
+      [JsonPropertyName("accessionNumber")]
+
+      public List<string>? AccessionNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: >-
+      <JsonRequired>
+
+      <JsonPropertyName("accessionNumber")>
+
+      Public Property AccessionNumber As List(Of String)
+  overload: StockDB.Models.SEC.SecFilingData.AccessionNumber*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonRequiredAttribute
+    ctor: System.Text.Json.Serialization.JsonRequiredAttribute.#ctor
+    arguments: []
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: accessionNumber
+- uid: StockDB.Models.SEC.SecFilingData.FilingDate
+  commentId: P:StockDB.Models.SEC.SecFilingData.FilingDate
+  id: FilingDate
+  parent: StockDB.Models.SEC.SecFilingData
+  langs:
+  - csharp
+  - vb
+  name: FilingDate
+  nameWithType: SecFilingData.FilingDate
+  fullName: StockDB.Models.SEC.SecFilingData.FilingDate
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingSEC.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: FilingDate
+    path: ../../StockDB/Models/Filing/FilingSEC.cs
+    startLine: 59
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.SEC
+  syntax:
+    content: >-
+      [JsonRequired]
+
+      [JsonPropertyName("filingDate")]
+
+      public List<string>? FilingDate { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: >-
+      <JsonRequired>
+
+      <JsonPropertyName("filingDate")>
+
+      Public Property FilingDate As List(Of String)
+  overload: StockDB.Models.SEC.SecFilingData.FilingDate*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonRequiredAttribute
+    ctor: System.Text.Json.Serialization.JsonRequiredAttribute.#ctor
+    arguments: []
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: filingDate
+- uid: StockDB.Models.SEC.SecFilingData.Form
+  commentId: P:StockDB.Models.SEC.SecFilingData.Form
+  id: Form
+  parent: StockDB.Models.SEC.SecFilingData
+  langs:
+  - csharp
+  - vb
+  name: Form
+  nameWithType: SecFilingData.Form
+  fullName: StockDB.Models.SEC.SecFilingData.Form
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingSEC.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: Form
+    path: ../../StockDB/Models/Filing/FilingSEC.cs
+    startLine: 63
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.SEC
+  syntax:
+    content: >-
+      [JsonRequired]
+
+      [JsonPropertyName("form")]
+
+      public List<string>? Form { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: >-
+      <JsonRequired>
+
+      <JsonPropertyName("form")>
+
+      Public Property Form As List(Of String)
+  overload: StockDB.Models.SEC.SecFilingData.Form*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonRequiredAttribute
+    ctor: System.Text.Json.Serialization.JsonRequiredAttribute.#ctor
+    arguments: []
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: form
+- uid: StockDB.Models.SEC.SecFilingData.Size
+  commentId: P:StockDB.Models.SEC.SecFilingData.Size
+  id: Size
+  parent: StockDB.Models.SEC.SecFilingData
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: SecFilingData.Size
+  fullName: StockDB.Models.SEC.SecFilingData.Size
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingSEC.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: Size
+    path: ../../StockDB/Models/Filing/FilingSEC.cs
+    startLine: 67
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.SEC
+  syntax:
+    content: >-
+      [JsonRequired]
+
+      [JsonPropertyName("size")]
+
+      public List<int>? Size { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Int32}
+    content.vb: >-
+      <JsonRequired>
+
+      <JsonPropertyName("size")>
+
+      Public Property Size As List(Of Integer)
+  overload: StockDB.Models.SEC.SecFilingData.Size*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonRequiredAttribute
+    ctor: System.Text.Json.Serialization.JsonRequiredAttribute.#ctor
+    arguments: []
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: size
+- uid: StockDB.Models.SEC.SecFilingData.CoreType
+  commentId: P:StockDB.Models.SEC.SecFilingData.CoreType
+  id: CoreType
+  parent: StockDB.Models.SEC.SecFilingData
+  langs:
+  - csharp
+  - vb
+  name: CoreType
+  nameWithType: SecFilingData.CoreType
+  fullName: StockDB.Models.SEC.SecFilingData.CoreType
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingSEC.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: CoreType
+    path: ../../StockDB/Models/Filing/FilingSEC.cs
+    startLine: 71
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.SEC
+  syntax:
+    content: >-
+      [JsonRequired]
+
+      [JsonPropertyName("core_type")]
+
+      public List<string>? CoreType { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: >-
+      <JsonRequired>
+
+      <JsonPropertyName("core_type")>
+
+      Public Property CoreType As List(Of String)
+  overload: StockDB.Models.SEC.SecFilingData.CoreType*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonRequiredAttribute
+    ctor: System.Text.Json.Serialization.JsonRequiredAttribute.#ctor
+    arguments: []
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: core_type
+- uid: StockDB.Models.SEC.SecFilingData.PrimaryDocument
+  commentId: P:StockDB.Models.SEC.SecFilingData.PrimaryDocument
+  id: PrimaryDocument
+  parent: StockDB.Models.SEC.SecFilingData
+  langs:
+  - csharp
+  - vb
+  name: PrimaryDocument
+  nameWithType: SecFilingData.PrimaryDocument
+  fullName: StockDB.Models.SEC.SecFilingData.PrimaryDocument
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingSEC.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: PrimaryDocument
+    path: ../../StockDB/Models/Filing/FilingSEC.cs
+    startLine: 75
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.SEC
+  syntax:
+    content: >-
+      [JsonRequired]
+
+      [JsonPropertyName("primaryDocument")]
+
+      public List<string>? PrimaryDocument { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: >-
+      <JsonRequired>
+
+      <JsonPropertyName("primaryDocument")>
+
+      Public Property PrimaryDocument As List(Of String)
+  overload: StockDB.Models.SEC.SecFilingData.PrimaryDocument*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonRequiredAttribute
+    ctor: System.Text.Json.Serialization.JsonRequiredAttribute.#ctor
+    arguments: []
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: primaryDocument
+- uid: StockDB.Models.SEC.SecFilingData.PrimaryDocDescription
+  commentId: P:StockDB.Models.SEC.SecFilingData.PrimaryDocDescription
+  id: PrimaryDocDescription
+  parent: StockDB.Models.SEC.SecFilingData
+  langs:
+  - csharp
+  - vb
+  name: PrimaryDocDescription
+  nameWithType: SecFilingData.PrimaryDocDescription
+  fullName: StockDB.Models.SEC.SecFilingData.PrimaryDocDescription
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingSEC.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: PrimaryDocDescription
+    path: ../../StockDB/Models/Filing/FilingSEC.cs
+    startLine: 79
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.SEC
+  syntax:
+    content: >-
+      [JsonRequired]
+
+      [JsonPropertyName("primaryDocDescription")]
+
+      public List<string>? PrimaryDocDescription { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: >-
+      <JsonRequired>
+
+      <JsonPropertyName("primaryDocDescription")>
+
+      Public Property PrimaryDocDescription As List(Of String)
+  overload: StockDB.Models.SEC.SecFilingData.PrimaryDocDescription*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonRequiredAttribute
+    ctor: System.Text.Json.Serialization.JsonRequiredAttribute.#ctor
+    arguments: []
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: primaryDocDescription
+- uid: StockDB.Models.SEC.SecFilingData.IsXBRL
+  commentId: P:StockDB.Models.SEC.SecFilingData.IsXBRL
+  id: IsXBRL
+  parent: StockDB.Models.SEC.SecFilingData
+  langs:
+  - csharp
+  - vb
+  name: IsXBRL
+  nameWithType: SecFilingData.IsXBRL
+  fullName: StockDB.Models.SEC.SecFilingData.IsXBRL
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingSEC.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: IsXBRL
+    path: ../../StockDB/Models/Filing/FilingSEC.cs
+    startLine: 83
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.SEC
+  syntax:
+    content: >-
+      [JsonRequired]
+
+      [JsonPropertyName("isXBRL")]
+
+      public List<int>? IsXBRL { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Int32}
+    content.vb: >-
+      <JsonRequired>
+
+      <JsonPropertyName("isXBRL")>
+
+      Public Property IsXBRL As List(Of Integer)
+  overload: StockDB.Models.SEC.SecFilingData.IsXBRL*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonRequiredAttribute
+    ctor: System.Text.Json.Serialization.JsonRequiredAttribute.#ctor
+    arguments: []
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: isXBRL
+- uid: StockDB.Models.SEC.SecFilingData.IsInlineXBRL
+  commentId: P:StockDB.Models.SEC.SecFilingData.IsInlineXBRL
+  id: IsInlineXBRL
+  parent: StockDB.Models.SEC.SecFilingData
+  langs:
+  - csharp
+  - vb
+  name: IsInlineXBRL
+  nameWithType: SecFilingData.IsInlineXBRL
+  fullName: StockDB.Models.SEC.SecFilingData.IsInlineXBRL
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingSEC.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: IsInlineXBRL
+    path: ../../StockDB/Models/Filing/FilingSEC.cs
+    startLine: 87
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.SEC
+  syntax:
+    content: >-
+      [JsonRequired]
+
+      [JsonPropertyName("isInlineXBRL")]
+
+      public List<int>? IsInlineXBRL { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Int32}
+    content.vb: >-
+      <JsonRequired>
+
+      <JsonPropertyName("isInlineXBRL")>
+
+      Public Property IsInlineXBRL As List(Of Integer)
+  overload: StockDB.Models.SEC.SecFilingData.IsInlineXBRL*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonRequiredAttribute
+    ctor: System.Text.Json.Serialization.JsonRequiredAttribute.#ctor
+    arguments: []
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: isInlineXBRL
+references:
+- uid: StockDB.Models.SEC
+  commentId: N:StockDB.Models.SEC
+  href: StockDB.html
+  name: StockDB.Models.SEC
+  nameWithType: StockDB.Models.SEC
+  fullName: StockDB.Models.SEC
+  spec.csharp:
+  - uid: StockDB
+    name: StockDB
+    href: StockDB.html
+  - name: .
+  - uid: StockDB.Models
+    name: Models
+    href: StockDB.Models.html
+  - name: .
+  - uid: StockDB.Models.SEC
+    name: SEC
+    href: StockDB.Models.SEC.html
+  spec.vb:
+  - uid: StockDB
+    name: StockDB
+    href: StockDB.html
+  - name: .
+  - uid: StockDB.Models
+    name: Models
+    href: StockDB.Models.html
+  - name: .
+  - uid: StockDB.Models.SEC
+    name: SEC
+    href: StockDB.Models.SEC.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StockDB.Models.SEC.SecFilingData.AccessionNumber*
+  commentId: Overload:StockDB.Models.SEC.SecFilingData.AccessionNumber
+  href: StockDB.Models.SEC.SecFilingData.html#StockDB_Models_SEC_SecFilingData_AccessionNumber
+  name: AccessionNumber
+  nameWithType: SecFilingData.AccessionNumber
+  fullName: StockDB.Models.SEC.SecFilingData.AccessionNumber
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: StockDB.Models.SEC.SecFilingData.FilingDate*
+  commentId: Overload:StockDB.Models.SEC.SecFilingData.FilingDate
+  href: StockDB.Models.SEC.SecFilingData.html#StockDB_Models_SEC_SecFilingData_FilingDate
+  name: FilingDate
+  nameWithType: SecFilingData.FilingDate
+  fullName: StockDB.Models.SEC.SecFilingData.FilingDate
+- uid: StockDB.Models.SEC.SecFilingData.Form*
+  commentId: Overload:StockDB.Models.SEC.SecFilingData.Form
+  href: StockDB.Models.SEC.SecFilingData.html#StockDB_Models_SEC_SecFilingData_Form
+  name: Form
+  nameWithType: SecFilingData.Form
+  fullName: StockDB.Models.SEC.SecFilingData.Form
+- uid: StockDB.Models.SEC.SecFilingData.Size*
+  commentId: Overload:StockDB.Models.SEC.SecFilingData.Size
+  href: StockDB.Models.SEC.SecFilingData.html#StockDB_Models_SEC_SecFilingData_Size
+  name: Size
+  nameWithType: SecFilingData.Size
+  fullName: StockDB.Models.SEC.SecFilingData.Size
+- uid: System.Collections.Generic.List{System.Int32}
+  commentId: T:System.Collections.Generic.List{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<int>
+  nameWithType: List<int>
+  fullName: System.Collections.Generic.List<int>
+  nameWithType.vb: List(Of Integer)
+  fullName.vb: System.Collections.Generic.List(Of Integer)
+  name.vb: List(Of Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: StockDB.Models.SEC.SecFilingData.CoreType*
+  commentId: Overload:StockDB.Models.SEC.SecFilingData.CoreType
+  href: StockDB.Models.SEC.SecFilingData.html#StockDB_Models_SEC_SecFilingData_CoreType
+  name: CoreType
+  nameWithType: SecFilingData.CoreType
+  fullName: StockDB.Models.SEC.SecFilingData.CoreType
+- uid: StockDB.Models.SEC.SecFilingData.PrimaryDocument*
+  commentId: Overload:StockDB.Models.SEC.SecFilingData.PrimaryDocument
+  href: StockDB.Models.SEC.SecFilingData.html#StockDB_Models_SEC_SecFilingData_PrimaryDocument
+  name: PrimaryDocument
+  nameWithType: SecFilingData.PrimaryDocument
+  fullName: StockDB.Models.SEC.SecFilingData.PrimaryDocument
+- uid: StockDB.Models.SEC.SecFilingData.PrimaryDocDescription*
+  commentId: Overload:StockDB.Models.SEC.SecFilingData.PrimaryDocDescription
+  href: StockDB.Models.SEC.SecFilingData.html#StockDB_Models_SEC_SecFilingData_PrimaryDocDescription
+  name: PrimaryDocDescription
+  nameWithType: SecFilingData.PrimaryDocDescription
+  fullName: StockDB.Models.SEC.SecFilingData.PrimaryDocDescription
+- uid: StockDB.Models.SEC.SecFilingData.IsXBRL*
+  commentId: Overload:StockDB.Models.SEC.SecFilingData.IsXBRL
+  href: StockDB.Models.SEC.SecFilingData.html#StockDB_Models_SEC_SecFilingData_IsXBRL
+  name: IsXBRL
+  nameWithType: SecFilingData.IsXBRL
+  fullName: StockDB.Models.SEC.SecFilingData.IsXBRL
+- uid: StockDB.Models.SEC.SecFilingData.IsInlineXBRL*
+  commentId: Overload:StockDB.Models.SEC.SecFilingData.IsInlineXBRL
+  href: StockDB.Models.SEC.SecFilingData.html#StockDB_Models_SEC_SecFilingData_IsInlineXBRL
+  name: IsInlineXBRL
+  nameWithType: SecFilingData.IsInlineXBRL
+  fullName: StockDB.Models.SEC.SecFilingData.IsInlineXBRL

@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: StockWebAPI.Models
+  commentId: N:StockWebAPI.Models
+  id: StockWebAPI.Models
+  children:
+  - StockWebAPI.Models.CompanyOverviewApiData
+  - StockWebAPI.Models.DailyApiData
+  - StockWebAPI.Models.DailyData
+  - StockWebAPI.Models.DailyDataDTO
+  - StockWebAPI.Models.InterDailyApiData
+  - StockWebAPI.Models.RealTimeOptionsData
+  - StockWebAPI.Models.RealtimeOptionsApiData
+  - StockWebAPI.Models.Stock
+  - StockWebAPI.Models.StockDTO
+  - StockWebAPI.Models.StockDataPointDTO
+  - StockWebAPI.Models.StockInfoAfterHours
+  - StockWebAPI.Models.StockInfoToday
+  - StockWebAPI.Models.StockShareInformation
+  langs:
+  - csharp
+  - vb
+  name: StockWebAPI.Models
+  nameWithType: StockWebAPI.Models
+  fullName: StockWebAPI.Models
+  type: Namespace
+  assemblies:
+  - StockWebAPI
+references:
+- uid: StockWebAPI.Models.InterDailyApiData
+  commentId: T:StockWebAPI.Models.InterDailyApiData
+  href: StockWebAPI.Models.InterDailyApiData.html
+  name: InterDailyApiData
+  nameWithType: InterDailyApiData
+  fullName: StockWebAPI.Models.InterDailyApiData
+- uid: StockWebAPI.Models.DailyApiData
+  commentId: T:StockWebAPI.Models.DailyApiData
+  href: StockWebAPI.Models.DailyApiData.html
+  name: DailyApiData
+  nameWithType: DailyApiData
+  fullName: StockWebAPI.Models.DailyApiData
+- uid: StockWebAPI.Models.DailyData
+  commentId: T:StockWebAPI.Models.DailyData
+  href: StockWebAPI.Models.DailyData.html
+  name: DailyData
+  nameWithType: DailyData
+  fullName: StockWebAPI.Models.DailyData
+- uid: StockWebAPI.Models.DailyDataDTO
+  commentId: T:StockWebAPI.Models.DailyDataDTO
+  href: StockWebAPI.Models.DailyDataDTO.html
+  name: DailyDataDTO
+  nameWithType: DailyDataDTO
+  fullName: StockWebAPI.Models.DailyDataDTO
+- uid: StockWebAPI.Models.RealtimeOptionsApiData
+  commentId: T:StockWebAPI.Models.RealtimeOptionsApiData
+  href: StockWebAPI.Models.RealtimeOptionsApiData.html
+  name: RealtimeOptionsApiData
+  nameWithType: RealtimeOptionsApiData
+  fullName: StockWebAPI.Models.RealtimeOptionsApiData
+- uid: StockWebAPI.Models.RealTimeOptionsData
+  commentId: T:StockWebAPI.Models.RealTimeOptionsData
+  href: StockWebAPI.Models.RealTimeOptionsData.html
+  name: RealTimeOptionsData
+  nameWithType: RealTimeOptionsData
+  fullName: StockWebAPI.Models.RealTimeOptionsData
+- uid: StockWebAPI.Models.CompanyOverviewApiData
+  commentId: T:StockWebAPI.Models.CompanyOverviewApiData
+  href: StockWebAPI.Models.CompanyOverviewApiData.html
+  name: CompanyOverviewApiData
+  nameWithType: CompanyOverviewApiData
+  fullName: StockWebAPI.Models.CompanyOverviewApiData
+- uid: StockWebAPI.Models.Stock
+  commentId: T:StockWebAPI.Models.Stock
+  href: StockWebAPI.Models.Stock.html
+  name: Stock
+  nameWithType: Stock
+  fullName: StockWebAPI.Models.Stock
+- uid: StockWebAPI.Models.StockDTO
+  commentId: T:StockWebAPI.Models.StockDTO
+  href: StockWebAPI.Models.StockDTO.html
+  name: StockDTO
+  nameWithType: StockDTO
+  fullName: StockWebAPI.Models.StockDTO
+- uid: StockWebAPI.Models.StockInfoToday
+  commentId: T:StockWebAPI.Models.StockInfoToday
+  parent: StockWebAPI.Models
+  href: StockWebAPI.Models.StockInfoToday.html
+  name: StockInfoToday
+  nameWithType: StockInfoToday
+  fullName: StockWebAPI.Models.StockInfoToday
+- uid: StockWebAPI.Models.StockShareInformation
+  commentId: T:StockWebAPI.Models.StockShareInformation
+  parent: StockWebAPI.Models
+  href: StockWebAPI.Models.StockShareInformation.html
+  name: StockShareInformation
+  nameWithType: StockShareInformation
+  fullName: StockWebAPI.Models.StockShareInformation
+- uid: StockWebAPI.Models.StockInfoAfterHours
+  commentId: T:StockWebAPI.Models.StockInfoAfterHours
+  parent: StockWebAPI.Models
+  href: StockWebAPI.Models.StockInfoAfterHours.html
+  name: StockInfoAfterHours
+  nameWithType: StockInfoAfterHours
+  fullName: StockWebAPI.Models.StockInfoAfterHours
+- uid: StockWebAPI.Models.StockDataPointDTO
+  commentId: T:StockWebAPI.Models.StockDataPointDTO
+  href: StockWebAPI.Models.StockDataPointDTO.html
+  name: StockDataPointDTO
+  nameWithType: StockDataPointDTO
+  fullName: StockWebAPI.Models.StockDataPointDTO
+- uid: StockWebAPI.Models
+  commentId: N:StockWebAPI.Models
+  href: StockWebAPI.html
+  name: StockWebAPI.Models
+  nameWithType: StockWebAPI.Models
+  fullName: StockWebAPI.Models
+  spec.csharp:
+  - uid: StockWebAPI
+    name: StockWebAPI
+    href: StockWebAPI.html
+  - name: .
+  - uid: StockWebAPI.Models
+    name: Models
+    href: StockWebAPI.Models.html
+  spec.vb:
+  - uid: StockWebAPI
+    name: StockWebAPI
+    href: StockWebAPI.html
+  - name: .
+  - uid: StockWebAPI.Models
+    name: Models
+    href: StockWebAPI.Models.html

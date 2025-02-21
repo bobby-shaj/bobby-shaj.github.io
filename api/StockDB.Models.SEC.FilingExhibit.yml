@@ -1,0 +1,584 @@
+### YamlMime:ManagedReference
+items:
+- uid: StockDB.Models.SEC.FilingExhibit
+  commentId: T:StockDB.Models.SEC.FilingExhibit
+  id: FilingExhibit
+  parent: StockDB.Models.SEC
+  children:
+  - StockDB.Models.SEC.FilingExhibit.Description
+  - StockDB.Models.SEC.FilingExhibit.DisplayUrl
+  - StockDB.Models.SEC.FilingExhibit.Size
+  - StockDB.Models.SEC.FilingExhibit.Title
+  - StockDB.Models.SEC.FilingExhibit.Type
+  - StockDB.Models.SEC.FilingExhibit.Url
+  langs:
+  - csharp
+  - vb
+  name: FilingExhibit
+  nameWithType: FilingExhibit
+  fullName: StockDB.Models.SEC.FilingExhibit
+  type: Class
+  source:
+    remote:
+      path: Models/Filing/FilingSEC.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: FilingExhibit
+    path: ../../StockDB/Models/Filing/FilingSEC.cs
+    startLine: 92
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.SEC
+  syntax:
+    content: public class FilingExhibit
+    content.vb: Public Class FilingExhibit
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: StockDB.Models.SEC.FilingExhibit.Title
+  commentId: P:StockDB.Models.SEC.FilingExhibit.Title
+  id: Title
+  parent: StockDB.Models.SEC.FilingExhibit
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: FilingExhibit.Title
+  fullName: StockDB.Models.SEC.FilingExhibit.Title
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingSEC.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: Title
+    path: ../../StockDB/Models/Filing/FilingSEC.cs
+    startLine: 94
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.SEC
+  syntax:
+    content: public string? Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: StockDB.Models.SEC.FilingExhibit.Title*
+- uid: StockDB.Models.SEC.FilingExhibit.Description
+  commentId: P:StockDB.Models.SEC.FilingExhibit.Description
+  id: Description
+  parent: StockDB.Models.SEC.FilingExhibit
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: FilingExhibit.Description
+  fullName: StockDB.Models.SEC.FilingExhibit.Description
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingSEC.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: Description
+    path: ../../StockDB/Models/Filing/FilingSEC.cs
+    startLine: 96
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.SEC
+  syntax:
+    content: public string? Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: StockDB.Models.SEC.FilingExhibit.Description*
+- uid: StockDB.Models.SEC.FilingExhibit.Type
+  commentId: P:StockDB.Models.SEC.FilingExhibit.Type
+  id: Type
+  parent: StockDB.Models.SEC.FilingExhibit
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: FilingExhibit.Type
+  fullName: StockDB.Models.SEC.FilingExhibit.Type
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingSEC.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: Type
+    path: ../../StockDB/Models/Filing/FilingSEC.cs
+    startLine: 98
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.SEC
+  syntax:
+    content: public string? Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: StockDB.Models.SEC.FilingExhibit.Type*
+- uid: StockDB.Models.SEC.FilingExhibit.Size
+  commentId: P:StockDB.Models.SEC.FilingExhibit.Size
+  id: Size
+  parent: StockDB.Models.SEC.FilingExhibit
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: FilingExhibit.Size
+  fullName: StockDB.Models.SEC.FilingExhibit.Size
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingSEC.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: Size
+    path: ../../StockDB/Models/Filing/FilingSEC.cs
+    startLine: 100
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.SEC
+  syntax:
+    content: public int? Size { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property Size As Integer?
+  overload: StockDB.Models.SEC.FilingExhibit.Size*
+- uid: StockDB.Models.SEC.FilingExhibit.Url
+  commentId: P:StockDB.Models.SEC.FilingExhibit.Url
+  id: Url
+  parent: StockDB.Models.SEC.FilingExhibit
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: FilingExhibit.Url
+  fullName: StockDB.Models.SEC.FilingExhibit.Url
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingSEC.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: Url
+    path: ../../StockDB/Models/Filing/FilingSEC.cs
+    startLine: 102
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.SEC
+  syntax:
+    content: public string? Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: StockDB.Models.SEC.FilingExhibit.Url*
+- uid: StockDB.Models.SEC.FilingExhibit.DisplayUrl
+  commentId: P:StockDB.Models.SEC.FilingExhibit.DisplayUrl
+  id: DisplayUrl
+  parent: StockDB.Models.SEC.FilingExhibit
+  langs:
+  - csharp
+  - vb
+  name: DisplayUrl
+  nameWithType: FilingExhibit.DisplayUrl
+  fullName: StockDB.Models.SEC.FilingExhibit.DisplayUrl
+  type: Property
+  source:
+    remote:
+      path: Models/Filing/FilingSEC.cs
+      branch: master
+      repo: https://github.com/bobby-shaj/StockDB.git
+    id: DisplayUrl
+    path: ../../StockDB/Models/Filing/FilingSEC.cs
+    startLine: 104
+  assemblies:
+  - StockDB
+  namespace: StockDB.Models.SEC
+  syntax:
+    content: public string? DisplayUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayUrl As String
+  overload: StockDB.Models.SEC.FilingExhibit.DisplayUrl*
+references:
+- uid: StockDB.Models.SEC
+  commentId: N:StockDB.Models.SEC
+  href: StockDB.html
+  name: StockDB.Models.SEC
+  nameWithType: StockDB.Models.SEC
+  fullName: StockDB.Models.SEC
+  spec.csharp:
+  - uid: StockDB
+    name: StockDB
+    href: StockDB.html
+  - name: .
+  - uid: StockDB.Models
+    name: Models
+    href: StockDB.Models.html
+  - name: .
+  - uid: StockDB.Models.SEC
+    name: SEC
+    href: StockDB.Models.SEC.html
+  spec.vb:
+  - uid: StockDB
+    name: StockDB
+    href: StockDB.html
+  - name: .
+  - uid: StockDB.Models
+    name: Models
+    href: StockDB.Models.html
+  - name: .
+  - uid: StockDB.Models.SEC
+    name: SEC
+    href: StockDB.Models.SEC.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StockDB.Models.SEC.FilingExhibit.Title*
+  commentId: Overload:StockDB.Models.SEC.FilingExhibit.Title
+  href: StockDB.Models.SEC.FilingExhibit.html#StockDB_Models_SEC_FilingExhibit_Title
+  name: Title
+  nameWithType: FilingExhibit.Title
+  fullName: StockDB.Models.SEC.FilingExhibit.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: StockDB.Models.SEC.FilingExhibit.Description*
+  commentId: Overload:StockDB.Models.SEC.FilingExhibit.Description
+  href: StockDB.Models.SEC.FilingExhibit.html#StockDB_Models_SEC_FilingExhibit_Description
+  name: Description
+  nameWithType: FilingExhibit.Description
+  fullName: StockDB.Models.SEC.FilingExhibit.Description
+- uid: StockDB.Models.SEC.FilingExhibit.Type*
+  commentId: Overload:StockDB.Models.SEC.FilingExhibit.Type
+  href: StockDB.Models.SEC.FilingExhibit.html#StockDB_Models_SEC_FilingExhibit_Type
+  name: Type
+  nameWithType: FilingExhibit.Type
+  fullName: StockDB.Models.SEC.FilingExhibit.Type
+- uid: StockDB.Models.SEC.FilingExhibit.Size*
+  commentId: Overload:StockDB.Models.SEC.FilingExhibit.Size
+  href: StockDB.Models.SEC.FilingExhibit.html#StockDB_Models_SEC_FilingExhibit_Size
+  name: Size
+  nameWithType: FilingExhibit.Size
+  fullName: StockDB.Models.SEC.FilingExhibit.Size
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: StockDB.Models.SEC.FilingExhibit.Url*
+  commentId: Overload:StockDB.Models.SEC.FilingExhibit.Url
+  href: StockDB.Models.SEC.FilingExhibit.html#StockDB_Models_SEC_FilingExhibit_Url
+  name: Url
+  nameWithType: FilingExhibit.Url
+  fullName: StockDB.Models.SEC.FilingExhibit.Url
+- uid: StockDB.Models.SEC.FilingExhibit.DisplayUrl*
+  commentId: Overload:StockDB.Models.SEC.FilingExhibit.DisplayUrl
+  href: StockDB.Models.SEC.FilingExhibit.html#StockDB_Models_SEC_FilingExhibit_DisplayUrl
+  name: DisplayUrl
+  nameWithType: FilingExhibit.DisplayUrl
+  fullName: StockDB.Models.SEC.FilingExhibit.DisplayUrl

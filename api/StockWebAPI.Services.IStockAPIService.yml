@@ -1,0 +1,675 @@
+### YamlMime:ManagedReference
+items:
+- uid: StockWebAPI.Services.IStockAPIService
+  commentId: T:StockWebAPI.Services.IStockAPIService
+  id: IStockAPIService
+  parent: StockWebAPI.Services
+  children:
+  - StockWebAPI.Services.IStockAPIService.GetHistoricalData(System.String,System.String,System.String)
+  - StockWebAPI.Services.IStockAPIService.GetStockData(System.String)
+  - StockWebAPI.Services.IStockAPIService.GetStockFiveDays(System.String)
+  - StockWebAPI.Services.IStockAPIService.GetStockFiveYears(System.String)
+  - StockWebAPI.Services.IStockAPIService.GetStockOneDay(System.String)
+  - StockWebAPI.Services.IStockAPIService.GetStockOneMonth(System.String)
+  - StockWebAPI.Services.IStockAPIService.GetStockOneYear(System.String)
+  - StockWebAPI.Services.IStockAPIService.GetStockSixMonths(System.String)
+  - StockWebAPI.Services.IStockAPIService.GetStockThreeMonths(System.String)
+  - StockWebAPI.Services.IStockAPIService.GetStockTwoYears(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IStockAPIService
+  nameWithType: IStockAPIService
+  fullName: StockWebAPI.Services.IStockAPIService
+  type: Interface
+  source:
+    remote:
+      path: Services/IStockAPIService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: IStockAPIService
+    path: ../Services/IStockAPIService.cs
+    startLine: 4
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: public interface IStockAPIService
+    content.vb: Public Interface IStockAPIService
+- uid: StockWebAPI.Services.IStockAPIService.GetStockData(System.String)
+  commentId: M:StockWebAPI.Services.IStockAPIService.GetStockData(System.String)
+  id: GetStockData(System.String)
+  parent: StockWebAPI.Services.IStockAPIService
+  langs:
+  - csharp
+  - vb
+  name: GetStockData(string)
+  nameWithType: IStockAPIService.GetStockData(string)
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockData(string)
+  type: Method
+  source:
+    remote:
+      path: Services/IStockAPIService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetStockData
+    path: ../Services/IStockAPIService.cs
+    startLine: 6
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: Task<StockDTO> GetStockData(string index)
+    parameters:
+    - id: index
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{StockWebAPI.Models.StockDTO}
+    content.vb: Function GetStockData(index As String) As Task(Of StockDTO)
+  overload: StockWebAPI.Services.IStockAPIService.GetStockData*
+  nameWithType.vb: IStockAPIService.GetStockData(String)
+  fullName.vb: StockWebAPI.Services.IStockAPIService.GetStockData(String)
+  name.vb: GetStockData(String)
+- uid: StockWebAPI.Services.IStockAPIService.GetStockOneDay(System.String)
+  commentId: M:StockWebAPI.Services.IStockAPIService.GetStockOneDay(System.String)
+  id: GetStockOneDay(System.String)
+  parent: StockWebAPI.Services.IStockAPIService
+  langs:
+  - csharp
+  - vb
+  name: GetStockOneDay(string)
+  nameWithType: IStockAPIService.GetStockOneDay(string)
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockOneDay(string)
+  type: Method
+  source:
+    remote:
+      path: Services/IStockAPIService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetStockOneDay
+    path: ../Services/IStockAPIService.cs
+    startLine: 8
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: Task<List<StockDataPointDTO>> GetStockOneDay(string index)
+    parameters:
+    - id: index
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockWebAPI.Models.StockDataPointDTO}}
+    content.vb: Function GetStockOneDay(index As String) As Task(Of List(Of StockDataPointDTO))
+  overload: StockWebAPI.Services.IStockAPIService.GetStockOneDay*
+  nameWithType.vb: IStockAPIService.GetStockOneDay(String)
+  fullName.vb: StockWebAPI.Services.IStockAPIService.GetStockOneDay(String)
+  name.vb: GetStockOneDay(String)
+- uid: StockWebAPI.Services.IStockAPIService.GetStockFiveDays(System.String)
+  commentId: M:StockWebAPI.Services.IStockAPIService.GetStockFiveDays(System.String)
+  id: GetStockFiveDays(System.String)
+  parent: StockWebAPI.Services.IStockAPIService
+  langs:
+  - csharp
+  - vb
+  name: GetStockFiveDays(string)
+  nameWithType: IStockAPIService.GetStockFiveDays(string)
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockFiveDays(string)
+  type: Method
+  source:
+    remote:
+      path: Services/IStockAPIService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetStockFiveDays
+    path: ../Services/IStockAPIService.cs
+    startLine: 9
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: Task<List<StockDataPointDTO>> GetStockFiveDays(string index)
+    parameters:
+    - id: index
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockWebAPI.Models.StockDataPointDTO}}
+    content.vb: Function GetStockFiveDays(index As String) As Task(Of List(Of StockDataPointDTO))
+  overload: StockWebAPI.Services.IStockAPIService.GetStockFiveDays*
+  nameWithType.vb: IStockAPIService.GetStockFiveDays(String)
+  fullName.vb: StockWebAPI.Services.IStockAPIService.GetStockFiveDays(String)
+  name.vb: GetStockFiveDays(String)
+- uid: StockWebAPI.Services.IStockAPIService.GetStockOneMonth(System.String)
+  commentId: M:StockWebAPI.Services.IStockAPIService.GetStockOneMonth(System.String)
+  id: GetStockOneMonth(System.String)
+  parent: StockWebAPI.Services.IStockAPIService
+  langs:
+  - csharp
+  - vb
+  name: GetStockOneMonth(string)
+  nameWithType: IStockAPIService.GetStockOneMonth(string)
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockOneMonth(string)
+  type: Method
+  source:
+    remote:
+      path: Services/IStockAPIService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetStockOneMonth
+    path: ../Services/IStockAPIService.cs
+    startLine: 11
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: Task<List<StockDataPointDTO>> GetStockOneMonth(string index)
+    parameters:
+    - id: index
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockWebAPI.Models.StockDataPointDTO}}
+    content.vb: Function GetStockOneMonth(index As String) As Task(Of List(Of StockDataPointDTO))
+  overload: StockWebAPI.Services.IStockAPIService.GetStockOneMonth*
+  nameWithType.vb: IStockAPIService.GetStockOneMonth(String)
+  fullName.vb: StockWebAPI.Services.IStockAPIService.GetStockOneMonth(String)
+  name.vb: GetStockOneMonth(String)
+- uid: StockWebAPI.Services.IStockAPIService.GetStockThreeMonths(System.String)
+  commentId: M:StockWebAPI.Services.IStockAPIService.GetStockThreeMonths(System.String)
+  id: GetStockThreeMonths(System.String)
+  parent: StockWebAPI.Services.IStockAPIService
+  langs:
+  - csharp
+  - vb
+  name: GetStockThreeMonths(string)
+  nameWithType: IStockAPIService.GetStockThreeMonths(string)
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockThreeMonths(string)
+  type: Method
+  source:
+    remote:
+      path: Services/IStockAPIService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetStockThreeMonths
+    path: ../Services/IStockAPIService.cs
+    startLine: 12
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: Task<List<StockDataPointDTO>> GetStockThreeMonths(string index)
+    parameters:
+    - id: index
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockWebAPI.Models.StockDataPointDTO}}
+    content.vb: Function GetStockThreeMonths(index As String) As Task(Of List(Of StockDataPointDTO))
+  overload: StockWebAPI.Services.IStockAPIService.GetStockThreeMonths*
+  nameWithType.vb: IStockAPIService.GetStockThreeMonths(String)
+  fullName.vb: StockWebAPI.Services.IStockAPIService.GetStockThreeMonths(String)
+  name.vb: GetStockThreeMonths(String)
+- uid: StockWebAPI.Services.IStockAPIService.GetStockSixMonths(System.String)
+  commentId: M:StockWebAPI.Services.IStockAPIService.GetStockSixMonths(System.String)
+  id: GetStockSixMonths(System.String)
+  parent: StockWebAPI.Services.IStockAPIService
+  langs:
+  - csharp
+  - vb
+  name: GetStockSixMonths(string)
+  nameWithType: IStockAPIService.GetStockSixMonths(string)
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockSixMonths(string)
+  type: Method
+  source:
+    remote:
+      path: Services/IStockAPIService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetStockSixMonths
+    path: ../Services/IStockAPIService.cs
+    startLine: 13
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: Task<List<StockDataPointDTO>> GetStockSixMonths(string index)
+    parameters:
+    - id: index
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockWebAPI.Models.StockDataPointDTO}}
+    content.vb: Function GetStockSixMonths(index As String) As Task(Of List(Of StockDataPointDTO))
+  overload: StockWebAPI.Services.IStockAPIService.GetStockSixMonths*
+  nameWithType.vb: IStockAPIService.GetStockSixMonths(String)
+  fullName.vb: StockWebAPI.Services.IStockAPIService.GetStockSixMonths(String)
+  name.vb: GetStockSixMonths(String)
+- uid: StockWebAPI.Services.IStockAPIService.GetStockOneYear(System.String)
+  commentId: M:StockWebAPI.Services.IStockAPIService.GetStockOneYear(System.String)
+  id: GetStockOneYear(System.String)
+  parent: StockWebAPI.Services.IStockAPIService
+  langs:
+  - csharp
+  - vb
+  name: GetStockOneYear(string)
+  nameWithType: IStockAPIService.GetStockOneYear(string)
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockOneYear(string)
+  type: Method
+  source:
+    remote:
+      path: Services/IStockAPIService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetStockOneYear
+    path: ../Services/IStockAPIService.cs
+    startLine: 15
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: Task<List<StockDataPointDTO>> GetStockOneYear(string index)
+    parameters:
+    - id: index
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockWebAPI.Models.StockDataPointDTO}}
+    content.vb: Function GetStockOneYear(index As String) As Task(Of List(Of StockDataPointDTO))
+  overload: StockWebAPI.Services.IStockAPIService.GetStockOneYear*
+  nameWithType.vb: IStockAPIService.GetStockOneYear(String)
+  fullName.vb: StockWebAPI.Services.IStockAPIService.GetStockOneYear(String)
+  name.vb: GetStockOneYear(String)
+- uid: StockWebAPI.Services.IStockAPIService.GetStockTwoYears(System.String)
+  commentId: M:StockWebAPI.Services.IStockAPIService.GetStockTwoYears(System.String)
+  id: GetStockTwoYears(System.String)
+  parent: StockWebAPI.Services.IStockAPIService
+  langs:
+  - csharp
+  - vb
+  name: GetStockTwoYears(string)
+  nameWithType: IStockAPIService.GetStockTwoYears(string)
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockTwoYears(string)
+  type: Method
+  source:
+    remote:
+      path: Services/IStockAPIService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetStockTwoYears
+    path: ../Services/IStockAPIService.cs
+    startLine: 17
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: Task<List<StockDataPointDTO>> GetStockTwoYears(string index)
+    parameters:
+    - id: index
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockWebAPI.Models.StockDataPointDTO}}
+    content.vb: Function GetStockTwoYears(index As String) As Task(Of List(Of StockDataPointDTO))
+  overload: StockWebAPI.Services.IStockAPIService.GetStockTwoYears*
+  nameWithType.vb: IStockAPIService.GetStockTwoYears(String)
+  fullName.vb: StockWebAPI.Services.IStockAPIService.GetStockTwoYears(String)
+  name.vb: GetStockTwoYears(String)
+- uid: StockWebAPI.Services.IStockAPIService.GetStockFiveYears(System.String)
+  commentId: M:StockWebAPI.Services.IStockAPIService.GetStockFiveYears(System.String)
+  id: GetStockFiveYears(System.String)
+  parent: StockWebAPI.Services.IStockAPIService
+  langs:
+  - csharp
+  - vb
+  name: GetStockFiveYears(string)
+  nameWithType: IStockAPIService.GetStockFiveYears(string)
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockFiveYears(string)
+  type: Method
+  source:
+    remote:
+      path: Services/IStockAPIService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetStockFiveYears
+    path: ../Services/IStockAPIService.cs
+    startLine: 18
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: Task<List<StockDataPointDTO>> GetStockFiveYears(string index)
+    parameters:
+    - id: index
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockWebAPI.Models.StockDataPointDTO}}
+    content.vb: Function GetStockFiveYears(index As String) As Task(Of List(Of StockDataPointDTO))
+  overload: StockWebAPI.Services.IStockAPIService.GetStockFiveYears*
+  nameWithType.vb: IStockAPIService.GetStockFiveYears(String)
+  fullName.vb: StockWebAPI.Services.IStockAPIService.GetStockFiveYears(String)
+  name.vb: GetStockFiveYears(String)
+- uid: StockWebAPI.Services.IStockAPIService.GetHistoricalData(System.String,System.String,System.String)
+  commentId: M:StockWebAPI.Services.IStockAPIService.GetHistoricalData(System.String,System.String,System.String)
+  id: GetHistoricalData(System.String,System.String,System.String)
+  parent: StockWebAPI.Services.IStockAPIService
+  langs:
+  - csharp
+  - vb
+  name: GetHistoricalData(string, string, string)
+  nameWithType: IStockAPIService.GetHistoricalData(string, string, string)
+  fullName: StockWebAPI.Services.IStockAPIService.GetHistoricalData(string, string, string)
+  type: Method
+  source:
+    remote:
+      path: Services/IStockAPIService.cs
+      branch: documentation
+      repo: https://github.com/bobby-shaj/StockTracker-backend.git
+    id: GetHistoricalData
+    path: ../Services/IStockAPIService.cs
+    startLine: 19
+  assemblies:
+  - StockWebAPI
+  namespace: StockWebAPI.Services
+  syntax:
+    content: Task<List<DailyDataDTO>> GetHistoricalData(string index, string start, string end)
+    parameters:
+    - id: index
+      type: System.String
+    - id: start
+      type: System.String
+    - id: end
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{StockWebAPI.Models.DailyDataDTO}}
+    content.vb: Function GetHistoricalData(index As String, start As String, [end] As String) As Task(Of List(Of DailyDataDTO))
+  overload: StockWebAPI.Services.IStockAPIService.GetHistoricalData*
+  nameWithType.vb: IStockAPIService.GetHistoricalData(String, String, String)
+  fullName.vb: StockWebAPI.Services.IStockAPIService.GetHistoricalData(String, String, String)
+  name.vb: GetHistoricalData(String, String, String)
+references:
+- uid: StockWebAPI.Services
+  commentId: N:StockWebAPI.Services
+  href: StockWebAPI.html
+  name: StockWebAPI.Services
+  nameWithType: StockWebAPI.Services
+  fullName: StockWebAPI.Services
+  spec.csharp:
+  - uid: StockWebAPI
+    name: StockWebAPI
+    href: StockWebAPI.html
+  - name: .
+  - uid: StockWebAPI.Services
+    name: Services
+    href: StockWebAPI.Services.html
+  spec.vb:
+  - uid: StockWebAPI
+    name: StockWebAPI
+    href: StockWebAPI.html
+  - name: .
+  - uid: StockWebAPI.Services
+    name: Services
+    href: StockWebAPI.Services.html
+- uid: StockWebAPI.Services.IStockAPIService.GetStockData*
+  commentId: Overload:StockWebAPI.Services.IStockAPIService.GetStockData
+  href: StockWebAPI.Services.IStockAPIService.html#StockWebAPI_Services_IStockAPIService_GetStockData_System_String_
+  name: GetStockData
+  nameWithType: IStockAPIService.GetStockData
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockData
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{StockWebAPI.Models.StockDTO}
+  commentId: T:System.Threading.Tasks.Task{StockWebAPI.Models.StockDTO}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<StockDTO>
+  nameWithType: Task<StockDTO>
+  fullName: System.Threading.Tasks.Task<StockWebAPI.Models.StockDTO>
+  nameWithType.vb: Task(Of StockDTO)
+  fullName.vb: System.Threading.Tasks.Task(Of StockWebAPI.Models.StockDTO)
+  name.vb: Task(Of StockDTO)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: StockWebAPI.Models.StockDTO
+    name: StockDTO
+    href: StockWebAPI.Models.StockDTO.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: StockWebAPI.Models.StockDTO
+    name: StockDTO
+    href: StockWebAPI.Models.StockDTO.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: StockWebAPI.Services.IStockAPIService.GetStockOneDay*
+  commentId: Overload:StockWebAPI.Services.IStockAPIService.GetStockOneDay
+  href: StockWebAPI.Services.IStockAPIService.html#StockWebAPI_Services_IStockAPIService_GetStockOneDay_System_String_
+  name: GetStockOneDay
+  nameWithType: IStockAPIService.GetStockOneDay
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockOneDay
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{StockWebAPI.Models.StockDataPointDTO}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{StockWebAPI.Models.StockDataPointDTO}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<StockDataPointDTO>>
+  nameWithType: Task<List<StockDataPointDTO>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<StockWebAPI.Models.StockDataPointDTO>>
+  nameWithType.vb: Task(Of List(Of StockDataPointDTO))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of StockWebAPI.Models.StockDataPointDTO))
+  name.vb: Task(Of List(Of StockDataPointDTO))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: StockWebAPI.Models.StockDataPointDTO
+    name: StockDataPointDTO
+    href: StockWebAPI.Models.StockDataPointDTO.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: StockWebAPI.Models.StockDataPointDTO
+    name: StockDataPointDTO
+    href: StockWebAPI.Models.StockDataPointDTO.html
+  - name: )
+  - name: )
+- uid: StockWebAPI.Services.IStockAPIService.GetStockFiveDays*
+  commentId: Overload:StockWebAPI.Services.IStockAPIService.GetStockFiveDays
+  href: StockWebAPI.Services.IStockAPIService.html#StockWebAPI_Services_IStockAPIService_GetStockFiveDays_System_String_
+  name: GetStockFiveDays
+  nameWithType: IStockAPIService.GetStockFiveDays
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockFiveDays
+- uid: StockWebAPI.Services.IStockAPIService.GetStockOneMonth*
+  commentId: Overload:StockWebAPI.Services.IStockAPIService.GetStockOneMonth
+  href: StockWebAPI.Services.IStockAPIService.html#StockWebAPI_Services_IStockAPIService_GetStockOneMonth_System_String_
+  name: GetStockOneMonth
+  nameWithType: IStockAPIService.GetStockOneMonth
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockOneMonth
+- uid: StockWebAPI.Services.IStockAPIService.GetStockThreeMonths*
+  commentId: Overload:StockWebAPI.Services.IStockAPIService.GetStockThreeMonths
+  href: StockWebAPI.Services.IStockAPIService.html#StockWebAPI_Services_IStockAPIService_GetStockThreeMonths_System_String_
+  name: GetStockThreeMonths
+  nameWithType: IStockAPIService.GetStockThreeMonths
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockThreeMonths
+- uid: StockWebAPI.Services.IStockAPIService.GetStockSixMonths*
+  commentId: Overload:StockWebAPI.Services.IStockAPIService.GetStockSixMonths
+  href: StockWebAPI.Services.IStockAPIService.html#StockWebAPI_Services_IStockAPIService_GetStockSixMonths_System_String_
+  name: GetStockSixMonths
+  nameWithType: IStockAPIService.GetStockSixMonths
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockSixMonths
+- uid: StockWebAPI.Services.IStockAPIService.GetStockOneYear*
+  commentId: Overload:StockWebAPI.Services.IStockAPIService.GetStockOneYear
+  href: StockWebAPI.Services.IStockAPIService.html#StockWebAPI_Services_IStockAPIService_GetStockOneYear_System_String_
+  name: GetStockOneYear
+  nameWithType: IStockAPIService.GetStockOneYear
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockOneYear
+- uid: StockWebAPI.Services.IStockAPIService.GetStockTwoYears*
+  commentId: Overload:StockWebAPI.Services.IStockAPIService.GetStockTwoYears
+  href: StockWebAPI.Services.IStockAPIService.html#StockWebAPI_Services_IStockAPIService_GetStockTwoYears_System_String_
+  name: GetStockTwoYears
+  nameWithType: IStockAPIService.GetStockTwoYears
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockTwoYears
+- uid: StockWebAPI.Services.IStockAPIService.GetStockFiveYears*
+  commentId: Overload:StockWebAPI.Services.IStockAPIService.GetStockFiveYears
+  href: StockWebAPI.Services.IStockAPIService.html#StockWebAPI_Services_IStockAPIService_GetStockFiveYears_System_String_
+  name: GetStockFiveYears
+  nameWithType: IStockAPIService.GetStockFiveYears
+  fullName: StockWebAPI.Services.IStockAPIService.GetStockFiveYears
+- uid: StockWebAPI.Services.IStockAPIService.GetHistoricalData*
+  commentId: Overload:StockWebAPI.Services.IStockAPIService.GetHistoricalData
+  href: StockWebAPI.Services.IStockAPIService.html#StockWebAPI_Services_IStockAPIService_GetHistoricalData_System_String_System_String_System_String_
+  name: GetHistoricalData
+  nameWithType: IStockAPIService.GetHistoricalData
+  fullName: StockWebAPI.Services.IStockAPIService.GetHistoricalData
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{StockWebAPI.Models.DailyDataDTO}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{StockWebAPI.Models.DailyDataDTO}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<DailyDataDTO>>
+  nameWithType: Task<List<DailyDataDTO>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<StockWebAPI.Models.DailyDataDTO>>
+  nameWithType.vb: Task(Of List(Of DailyDataDTO))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of StockWebAPI.Models.DailyDataDTO))
+  name.vb: Task(Of List(Of DailyDataDTO))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: StockWebAPI.Models.DailyDataDTO
+    name: DailyDataDTO
+    href: StockWebAPI.Models.DailyDataDTO.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: StockWebAPI.Models.DailyDataDTO
+    name: DailyDataDTO
+    href: StockWebAPI.Models.DailyDataDTO.html
+  - name: )
+  - name: )

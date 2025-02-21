@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: StockDB.Models.SEC
+  commentId: N:StockDB.Models.SEC
+  id: StockDB.Models.SEC
+  children:
+  - StockDB.Models.SEC.FilingAttachmentDTO
+  - StockDB.Models.SEC.FilingExhibit
+  - StockDB.Models.SEC.SecFilingDTO
+  - StockDB.Models.SEC.SecFilingData
+  - StockDB.Models.SEC.SecFilings
+  - StockDB.Models.SEC.SecSubmission
+  langs:
+  - csharp
+  - vb
+  name: StockDB.Models.SEC
+  nameWithType: StockDB.Models.SEC
+  fullName: StockDB.Models.SEC
+  type: Namespace
+  assemblies:
+  - StockDB
+references:
+- uid: StockDB.Models.SEC.FilingAttachmentDTO
+  commentId: T:StockDB.Models.SEC.FilingAttachmentDTO
+  href: StockDB.Models.SEC.FilingAttachmentDTO.html
+  name: FilingAttachmentDTO
+  nameWithType: FilingAttachmentDTO
+  fullName: StockDB.Models.SEC.FilingAttachmentDTO
+- uid: StockDB.Models.SEC.SecFilingDTO
+  commentId: T:StockDB.Models.SEC.SecFilingDTO
+  href: StockDB.Models.SEC.SecFilingDTO.html
+  name: SecFilingDTO
+  nameWithType: SecFilingDTO
+  fullName: StockDB.Models.SEC.SecFilingDTO
+- uid: StockDB.Models.SEC.SecSubmission
+  commentId: T:StockDB.Models.SEC.SecSubmission
+  href: StockDB.Models.SEC.SecSubmission.html
+  name: SecSubmission
+  nameWithType: SecSubmission
+  fullName: StockDB.Models.SEC.SecSubmission
+- uid: StockDB.Models.SEC.SecFilings
+  commentId: T:StockDB.Models.SEC.SecFilings
+  parent: StockDB.Models.SEC
+  href: StockDB.Models.SEC.SecFilings.html
+  name: SecFilings
+  nameWithType: SecFilings
+  fullName: StockDB.Models.SEC.SecFilings
+- uid: StockDB.Models.SEC.SecFilingData
+  commentId: T:StockDB.Models.SEC.SecFilingData
+  parent: StockDB.Models.SEC
+  href: StockDB.Models.SEC.SecFilingData.html
+  name: SecFilingData
+  nameWithType: SecFilingData
+  fullName: StockDB.Models.SEC.SecFilingData
+- uid: StockDB.Models.SEC.FilingExhibit
+  commentId: T:StockDB.Models.SEC.FilingExhibit
+  href: StockDB.Models.SEC.FilingExhibit.html
+  name: FilingExhibit
+  nameWithType: FilingExhibit
+  fullName: StockDB.Models.SEC.FilingExhibit
+- uid: StockDB.Models.SEC
+  commentId: N:StockDB.Models.SEC
+  href: StockDB.html
+  name: StockDB.Models.SEC
+  nameWithType: StockDB.Models.SEC
+  fullName: StockDB.Models.SEC
+  spec.csharp:
+  - uid: StockDB
+    name: StockDB
+    href: StockDB.html
+  - name: .
+  - uid: StockDB.Models
+    name: Models
+    href: StockDB.Models.html
+  - name: .
+  - uid: StockDB.Models.SEC
+    name: SEC
+    href: StockDB.Models.SEC.html
+  spec.vb:
+  - uid: StockDB
+    name: StockDB
+    href: StockDB.html
+  - name: .
+  - uid: StockDB.Models
+    name: Models
+    href: StockDB.Models.html
+  - name: .
+  - uid: StockDB.Models.SEC
+    name: SEC
+    href: StockDB.Models.SEC.html

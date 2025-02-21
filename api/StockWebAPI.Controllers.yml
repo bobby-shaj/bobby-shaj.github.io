@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: StockWebAPI.Controllers
+  commentId: N:StockWebAPI.Controllers
+  id: StockWebAPI.Controllers
+  children:
+  - StockWebAPI.Controllers.FilingsController
+  - StockWebAPI.Controllers.StockController
+  langs:
+  - csharp
+  - vb
+  name: StockWebAPI.Controllers
+  nameWithType: StockWebAPI.Controllers
+  fullName: StockWebAPI.Controllers
+  type: Namespace
+  assemblies:
+  - StockWebAPI
+references:
+- uid: StockWebAPI.Controllers.FilingsController
+  commentId: T:StockWebAPI.Controllers.FilingsController
+  href: StockWebAPI.Controllers.FilingsController.html
+  name: FilingsController
+  nameWithType: FilingsController
+  fullName: StockWebAPI.Controllers.FilingsController
+- uid: StockWebAPI.Controllers.StockController
+  commentId: T:StockWebAPI.Controllers.StockController
+  href: StockWebAPI.Controllers.StockController.html
+  name: StockController
+  nameWithType: StockController
+  fullName: StockWebAPI.Controllers.StockController
