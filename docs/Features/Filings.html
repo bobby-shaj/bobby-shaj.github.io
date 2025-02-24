@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title> </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content=" ">
+    
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<h2 id="filings">Filings</h2>
+<h3 id="endpoints">Endpoints</h3>
+<table>
+<thead>
+<tr>
+<th>Endpoint</th>
+<th>Method</th>
+<th>Description</th>
+<th>Request Body</th>
+<th>Params</th>
+<th>Response</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/api/filings/all-filings</code></td>
+<td>GET</td>
+<td>Retrieves a list of <a href="../api/StockDB.Models.DTO.FilingDTO.html">FilingDTO</a> objects of company's SEC filings of all types.</td>
+<td>None</td>
+<td>None</td>
+<td><code>[{&quot;accessionNum&quot;: &quot;0001683168-25-000575&quot;, &quot;filingData&quot;: &quot;01/29/2025&quot;, ...}, ...]</code></td>
+</tr>
+<tr>
+<td><code>/api/filings/yearly</code></td>
+<td>GET</td>
+<td>Retrieves a list of <a href="../api/StockDB.Models.DTO.FilingDTO.html">FilingDTO</a> objects of company's yearly filings.</td>
+<td>None</td>
+<td>None</td>
+<td><code>[{&quot;accessionNum&quot;: &quot;0001683168-25-000575&quot;, &quot;filingData&quot;: &quot;01/29/2025&quot;, ...}, ...]</code></td>
+</tr>
+<tr>
+<td><code>/api/filings/quarterly</code></td>
+<td>GET</td>
+<td>Retrieves a list of <a href="../api/StockDB.Models.DTO.FilingDTO.html">FilingDTO</a> objects of company's quarterly filings.</td>
+<td>None</td>
+<td>None</td>
+<td><code>[{&quot;accessionNum&quot;: &quot;0001683168-25-000575&quot;, &quot;filingData&quot;: &quot;01/29/2025&quot;, ...}, ...]</code></td>
+</tr>
+<tr>
+<td><code>/api/filings/section-sixteen</code></td>
+<td>GET</td>
+<td>Retrieves a list of <a href="../api/StockDB.Models.DTO.FilingDTO.html">FilingDTO</a> objects of company's section 16 filings.</td>
+<td>None</td>
+<td>None</td>
+<td><code>[{&quot;accessionNum&quot;: &quot;0001683168-25-000575&quot;, &quot;filingData&quot;: &quot;01/29/2025&quot;, ...}, ...]</code></td>
+</tr>
+<tr>
+<td><code>/api/filings/pdf</code></td>
+<td>GET</td>
+<td>Retrieves pdf document of a filing.</td>
+<td>None</td>
+<td>String, accession number of filing</td>
+<td>pdf file</td>
+</tr>
+<tr>
+<td><code>/api/filings/excel</code></td>
+<td>GET</td>
+<td>Retrieves excel document of a filing.</td>
+<td>None</td>
+<td>String, accession number of filing</td>
+<td>excel file</td>
+</tr>
+<tr>
+<td><code>/api/filings/xbrl-file-documents</code></td>
+<td>GET</td>
+<td>Retrieves xbrl zip file for a filing.</td>
+<td>None</td>
+<td>String, accession number of filing</td>
+<td>xbrl files</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usage-examples">Usage Examples</h2>
+<h3 id="get-all-filings">Get all filings</h3>
+<pre><code class="lang-bash">curl -X GET https://localhost:[port]/api/filings/all-filings
+</code></pre>
+<h3 id="get-all-yearly-filings">Get all yearly filings</h3>
+<pre><code class="lang-bash">curl -X GET https://localhost:[port]/api/filings/yearly
+</code></pre>
+<h3 id="get-all-quarterly-filings">Get all quarterly filings</h3>
+<pre><code class="lang-bash">curl -X GET https://localhost:[port]/api/filings/quarterly
+</code></pre>
+<h3 id="get-all-section-16-filings">Get all section 16 filings</h3>
+<pre><code class="lang-bash">curl -X GET https://localhost:[port]/api/filings/section-sixteen
+</code></pre>
+<h3 id="get-pdf-file-of-a-particular-filing">Get pdf file of a particular filing</h3>
+<pre><code class="lang-bash">curl -X GET https://localhost:[port]/api/filings/pdf?accessionNum=0001683168-24-001995
+</code></pre>
+<h3 id="get-excel-file-of-a-particular-filing">Get excel file of a particular filing</h3>
+<pre><code class="lang-bash">curl -X GET https://localhost:[port]/api/filings/excel?accessionNum=0001683168-24-001995
+</code></pre>
+<h3 id="get-xbrl-files-of-a-particular-filing">Get xbrl files of a particular filing</h3>
+<pre><code class="lang-bash">curl -X GET https://localhost:[port]/api/filings/xbrl-file-documents?accessionNum=0001683168-24-001995
+</code></pre>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

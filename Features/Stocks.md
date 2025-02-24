@@ -3,16 +3,16 @@
 
 | Endpoint | Method | Description | Request Body | Params | Response |
 |---|---|---|---|---|---|
-| `/api/stock` | GET | Retrieves a list of [StockDTO](../api/StockWebAPI.Models.StockDTO.yml/) objects. | None | Stock index | `[{"isAfterHrs": true, "today": {"last": "1.476", ...}, ...}, ...]` |
-| `/api/stock/stockoneday` | GET | Retrieves a list of [StockDataPointDTO](../api/StockWebAPI.Models.StockDataPointDTO.yml/) objects for today. | None | Stock index | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
-| `/api/stock/stockfivedays` | GET | Retrieves a list of [StockDataPointDTO](../api/StockWebAPI.Models.StockDataPointDTO.yml/) objects for past five days. | None | Stock index | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
-| `/api/stock/stockonemonth` | GET | Retrieves a list of [StockDataPointDTO](../api/StockWebAPI.Models.StockDataPointDTO.yml/) objects for past month. | None | Stock index | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
-| `/api/stock/stockthreemonths` | GET | Retrieves a list of [StockDataPointDTO](../api/StockWebAPI.Models.StockDataPointDTO.yml/) objects for past three months. | None | Stock index | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
-| `/api/stock/stocksixmonths` | GET | Retrieves a list of [StockDataPointDTO](../api/StockWebAPI.Models.StockDataPointDTO.yml/) objects for past six months. | None | Stock index | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
-| `/api/stock/stockoneyear` | GET | Retrieves a list of [StockDataPointDTO](../api/StockWebAPI.Models.StockDataPointDTO.yml/) objects for past year. | None | Stock index | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
-| `/api/stock/stocktwoyears` | GET | Retrieves a list of [StockDataPointDTO](../api/StockWebAPI.Models.StockDataPointDTO.yml/) objects for past two years. | None | Stock index | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
-| `/api/stock/stockfiveyears` | GET | Retrieves a list of [StockDataPointDTO](../api/StockWebAPI.Models.StockDataPointDTO.yml/) objects for past five years. | None | Stock index | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
-| `/api/stock/historicaldata` | GET | Retrieves a list of [DailyDataDTO](../api/StockWebAPI.Models.DailyDataDTO.yml/) objects for the specified period of time. | None | Stock index, start date, end date | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
+| `/api/stock` | GET | Retrieves a list of [StockDTO](../api/StockWebAPI.Models.StockDTO.yml) objects. | None | Stock index | `[{"isAfterHrs": true, "today": {"last": "1.476", ...}, ...}, ...]` |
+| `/api/stock/stockoneday` | GET | Retrieves a list of [StockDataPointDTO](../api/StockWebAPI.Models.StockDataPointDTO.yml) objects for today. | None | Stock index | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
+| `/api/stock/stockfivedays` | GET | Retrieves a list of [StockDataPointDTO](../api/StockWebAPI.Models.StockDataPointDTO.yml) objects for past five days. | None | Stock index | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
+| `/api/stock/stockonemonth` | GET | Retrieves a list of [StockDataPointDTO](../api/StockWebAPI.Models.StockDataPointDTO.yml) objects for past month. | None | Stock index | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
+| `/api/stock/stockthreemonths` | GET | Retrieves a list of [StockDataPointDTO](../api/StockWebAPI.Models.StockDataPointDTO.yml) objects for past three months. | None | Stock index | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
+| `/api/stock/stocksixmonths` | GET | Retrieves a list of [StockDataPointDTO](../api/StockWebAPI.Models.StockDataPointDTO.yml) objects for past six months. | None | Stock index | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
+| `/api/stock/stockoneyear` | GET | Retrieves a list of [StockDataPointDTO](../api/StockWebAPI.Models.StockDataPointDTO.yml) objects for past year. | None | Stock index | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
+| `/api/stock/stocktwoyears` | GET | Retrieves a list of [StockDataPointDTO](../api/StockWebAPI.Models.StockDataPointDTO.yml) objects for past two years. | None | Stock index | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
+| `/api/stock/stockfiveyears` | GET | Retrieves a list of [StockDataPointDTO](../api/StockWebAPI.Models.StockDataPointDTO.yml) objects for past five years. | None | Stock index | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
+| `/api/stock/historicaldata` | GET | Retrieves a list of [DailyDataDTO](../api/StockWebAPI.Models.DailyDataDTO.yml) objects for the specified period of time. | None | Stock index, start date, end date | `[{"Title": "Thursday...", "index": "fcuv", ...}, ...]` |
 
 
 ## Usage Examples
